@@ -1,0 +1,899 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+}
+
+enum UserRole {
+  OWNER
+  MANAGER
+  ACCOUNTANT
+  PROCUREMENT
+  VIEWER
+}
+
+enum StaffRole {
+  SUPERADMIN
+  ADMIN
+  SALES_MANAGER
+  ACCOUNTANT
+  PROCUREMENT
+  WAREHOUSE
+  VIEWER
+}
+
+enum OrganizationType {
+  OOO
+  AO
+  IP
+  OTHER
+}
+
+enum ProductStatus {
+  DRAFT
+  ACTIVE
+  ARCHIVED
+}
+
+enum AvailabilityStatus {
+  IN_STOCK
+  BACKORDER
+  OUT_OF_STOCK
+  DISCONTINUED
+}
+
+enum CatalogImportMode {
+  FULL
+  PRICE
+  STOCK
+}
+
+enum CatalogImportStatus {
+  UPLOADED
+  VALIDATING
+  READY
+  PROCESSING
+  COMPLETED
+  FAILED
+  CANCELLED
+}
+
+enum AttributeType {
+  TEXT
+  NUMBER
+  BOOLEAN
+}
+
+enum OrderStatus {
+  NEW         @map("new")
+  IN_PROGRESS @map("in_progress")
+  CANCELLED   @map("cancelled")
+  COMPLETED   @map("completed")
+}
+
+enum PaymentStatus {
+  PENDING @map("pending")
+  PARTIAL @map("partial")
+  PAID    @map("paid")
+  OVERDUE @map("overdue")
+}
+
+enum FulfillmentStatus {
+  ASSEMBLING @map("assembling")
+  SHIPPED    @map("shipped")
+  DELIVERED  @map("delivered")
+}
+
+enum OrderDocumentStatus {
+  REQUIRED  @map("required")
+  GENERATED @map("generated")
+  SENT      @map("sent")
+  SIGNED    @map("signed")
+}
+
+enum PaymentType {
+  BANK_TRANSFER
+  PREPAYMENT
+  POSTPAYMENT
+}
+
+enum DeliveryType {
+  PICKUP
+  TRANSPORT_COMPANY
+  CDEK
+}
+
+enum DocumentType {
+  INVOICE
+  INVOICE_OFFER
+  WAYBILL
+  ACT
+  CONTRACT        @map("contract")
+  INVOICE_FACTURA @map("invoice_factura")
+  UPD             @map("upd")
+  UKD             @map("ukd")
+  PAYMENT_ORDER   @map("payment_order")
+  SPECIFICATION   @map("specification")
+}
+
+enum DocumentStatus {
+  DRAFT     @map("draft")
+  GENERATED @map("generated")
+  SENT      @map("sent")
+  SIGNED    @map("signed")
+  ARCHIVED  @map("archived")
+}
+
+enum InvoiceStatus {
+  DRAFT        @map("draft")
+  GENERATED    @map("generated")
+  SENT         @map("sent")
+  PARTIAL_PAID @map("partial_paid")
+  PAID         @map("paid")
+  OVERDUE      @map("overdue")
+  CANCELLED    @map("cancelled")
+}
+
+enum LeadStatus {
+  NEW
+  IN_PROGRESS
+  COMPLETED
+}
+
+enum NotificationChannel {
+  EMAIL
+  TELEGRAM
+}
+
+enum NotificationEventType {
+  CONTACT_LEAD_CREATED
+  ORDER_CREATED
+}
+
+enum NotificationEventStatus {
+  PENDING
+  SENT
+  FAILED
+}
+
+model Organization {
+  id                  Int              @id @default(autoincrement())
+  fullName            String
+  shortName           String?
+  type                OrganizationType @default(OOO)
+  inn                 String           @unique
+  kpp                 String?
+  ogrn                String?
+  email               String?
+  phone               String?
+  website             String?
+  isActive            Boolean          @default(true)
+  defaultPaymentType  PaymentType      @default(BANK_TRANSFER)
+  deferredPaymentDays Int              @default(0)
+  createdAt           DateTime         @default(now())
+  updatedAt           DateTime         @updatedAt
+
+  users          User[]
+  addresses      Address[]
+  cart           Cart?
+  orders         Order[]
+  documents      OrderDocument[]
+  invoices       Invoice[]
+  pricingRules   PricingRule[]
+  contactPersons ContactPerson[]
+}
+
+model CompanyProfile {
+  id             Int      @id @default(autoincrement())
+  fullName       String
+  shortName      String?
+  inn            String   @unique
+  kpp            String?
+  ogrn           String?
+  legalAddress   String   @db.Text
+  actualAddress  String?  @db.Text
+  postalAddress  String?  @db.Text
+  email          String?
+  phone          String?
+  website        String?
+  directorName   String?
+  accountantName String?
+  basis          String?
+  isActive       Boolean  @default(true)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  bankAccounts CompanyBankAccount[]
+
+  @@index([isActive])
+}
+
+model CompanyBankAccount {
+  id                   Int      @id @default(autoincrement())
+  companyProfileId     Int
+  bankName             String
+  bankAddress          String?  @db.Text
+  bik                  String
+  checkingAccount      String
+  correspondentAccount String
+  recipientName        String?
+  isDefault            Boolean  @default(false)
+  isActive             Boolean  @default(true)
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+
+  companyProfile CompanyProfile @relation(fields: [companyProfileId], references: [id], onDelete: Cascade)
+
+  @@unique([companyProfileId, checkingAccount])
+  @@index([companyProfileId, isDefault])
+  @@index([isActive])
+}
+
+model ContactLead {
+  id        Int        @id @default(autoincrement())
+  name      String
+  phone     String
+  email     String
+  message   String?    @db.Text
+  source    String     @default("contacts")
+  consent   Boolean    @default(false)
+  status    LeadStatus @default(NEW)
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+
+  notificationEvents NotificationEvent[]
+
+  @@index([status, createdAt])
+  @@index([email])
+  @@index([phone])
+}
+
+model NotificationSetting {
+  id                   Int      @id @default(autoincrement())
+  isActive             Boolean  @default(true)
+  notifyLeadCreated    Boolean  @default(true)
+  notifyOrderCreated   Boolean  @default(true)
+  salesEmailEnabled    Boolean  @default(true)
+  customerEmailEnabled Boolean  @default(true)
+  telegramEnabled      Boolean  @default(true)
+  salesEmail           String?
+  smtpHost             String?
+  smtpPort             Int      @default(587)
+  smtpSecure           Boolean  @default(false)
+  smtpUser             String?
+  smtpPassword         String?
+  smtpFromEmail        String?
+  smtpFromName         String?
+  telegramBotToken     String?
+  telegramChatId       String?
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+
+  @@index([isActive])
+}
+
+model User {
+  id             Int       @id @default(autoincrement())
+  organizationId Int
+  email          String    @unique
+  firstName      String
+  lastName       String
+  phone          String?
+  role           UserRole  @default(MANAGER)
+  isActive       Boolean   @default(true)
+  passwordHash   String?
+  lastLoginAt    DateTime?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  organization      Organization    @relation(fields: [organizationId], references: [id], onDelete: Restrict)
+  createdOrders     Order[]         @relation("OrderCreatedBy")
+  uploadedDocuments OrderDocument[] @relation("OrderDocumentUploadedBy")
+  auditLogs         AuditLog[]      @relation("AuditLogChangedBy")
+}
+
+model StaffUser {
+  id           Int       @id @default(autoincrement())
+  email        String    @unique
+  firstName    String
+  lastName     String
+  phone        String?
+  role         StaffRole @default(SALES_MANAGER)
+  isActive     Boolean   @default(true)
+  passwordHash String?
+  lastLoginAt  DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  orderStatusChanges OrderStatusHistory[]
+  catalogImports     CatalogImport[]
+
+  @@index([role])
+  @@index([isActive])
+}
+
+model CatalogImport {
+  id             Int                 @id @default(autoincrement())
+  fileName       String
+  fileSize       Int
+  fileHash       String
+  storageKey     String
+  mode           CatalogImportMode   @default(FULL)
+  status         CatalogImportStatus @default(UPLOADED)
+  uploadedById   Int
+  totalRows      Int                 @default(0)
+  createdCount   Int                 @default(0)
+  updatedCount   Int                 @default(0)
+  unchangedCount Int                 @default(0)
+  errorCount     Int                 @default(0)
+  duplicateOfId  Int?
+  startedAt      DateTime?
+  completedAt    DateTime?
+  errorMessage   String?             @db.Text
+  createdAt      DateTime            @default(now())
+  updatedAt      DateTime            @updatedAt
+
+  uploadedBy  StaffUser            @relation(fields: [uploadedById], references: [id], onDelete: Restrict)
+  errors      CatalogImportError[]
+  duplicateOf CatalogImport?       @relation("CatalogImportDuplicates", fields: [duplicateOfId], references: [id], onDelete: SetNull)
+  duplicates  CatalogImport[]      @relation("CatalogImportDuplicates")
+
+  @@index([status, createdAt])
+  @@index([fileHash])
+  @@index([uploadedById, createdAt])
+}
+
+model CatalogImportError {
+  id          Int      @id @default(autoincrement())
+  importId    Int
+  sheet       String
+  rowNumber   Int
+  sku         String?
+  field       String?
+  sourceValue String?  @db.Text
+  message     String   @db.Text
+  createdAt   DateTime @default(now())
+
+  import CatalogImport @relation(fields: [importId], references: [id], onDelete: Cascade)
+
+  @@index([importId, sheet, rowNumber])
+}
+
+model ContactPerson {
+  id             Int      @id @default(autoincrement())
+  organizationId Int
+  fullName       String
+  position       String?
+  email          String?
+  phone          String?
+  isPrimary      Boolean  @default(false)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+}
+
+model Address {
+  id             Int      @id @default(autoincrement())
+  organizationId Int
+  label          String?
+  fullAddress    String
+  country        String   @default("RU")
+  postalCode     String?
+  region         String?
+  city           String
+  street         String
+  house          String?
+  building       String?
+  flat           String?
+  isLegal        Boolean  @default(false)
+  isShipping     Boolean  @default(true)
+  isPrimary      Boolean  @default(false)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  shippingOrders Order[]      @relation("OrderShippingAddress")
+}
+
+model Brand {
+  id        Int      @id @default(autoincrement())
+  name      String   @unique
+  slug      String   @unique
+  country   String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  products Product[]
+}
+
+model Category {
+  id          Int      @id @default(autoincrement())
+  parentId    Int?
+  name        String
+  slug        String   @unique
+  description String?
+  imageUrl    String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  parent   Category?  @relation("CategoryTree", fields: [parentId], references: [id], onDelete: SetNull)
+  children Category[] @relation("CategoryTree")
+  products Product[]
+}
+
+model Series {
+  id          Int      @id @default(autoincrement())
+  name        String
+  slug        String   @unique
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  products Product[]
+}
+
+model UnitMeasure {
+  id        Int      @id @default(autoincrement())
+  name      String
+  code      String   @unique
+  shortName String
+  isActive  Boolean  @default(true)
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  products Product[]
+
+  @@index([isActive, sortOrder])
+}
+
+model ProductType {
+  id        Int      @id @default(autoincrement())
+  code      String   @unique
+  name      String
+  isActive  Boolean  @default(true)
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  products Product[]
+
+  @@index([isActive, sortOrder])
+}
+
+model Product {
+  id                 Int                @id @default(autoincrement())
+  categoryId         Int
+  brandId            Int?
+  seriesId           Int?
+  productTypeId      Int?
+  variantGroupId     Int?
+  unitMeasureId      Int
+  sku                String             @unique
+  article            String?            @unique
+  model              String?
+  barcode            String?            @unique
+  name               String
+  slug               String             @unique
+  description        String?            @db.Text
+  seoTitle           String?
+  metaDescription    String?            @db.Text
+  status             ProductStatus      @default(ACTIVE)
+  availability       AvailabilityStatus @default(IN_STOCK)
+  vatRate            Decimal            @default(22.00) @db.Decimal(5, 2)
+  price              Decimal            @db.Decimal(12, 2)
+  purchasePrice      Decimal?           @db.Decimal(12, 2)
+  priceOld           Decimal?           @db.Decimal(12, 2)
+  currency           String             @default("RUB")
+  stockQty           Int                @default(0)
+  minOrderQty        Int                @default(1)
+  stepQty            Int                @default(1)
+  popularityWeight   Int                @default(0)
+  leadTimeDays       Int?
+  warrantyMonths     Int?
+  datasheetUrl       String?
+  imageUrl           String?
+  weightKg           Decimal?           @db.Decimal(10, 3)
+  widthMm            Decimal?           @db.Decimal(10, 2)
+  heightMm           Decimal?           @db.Decimal(10, 2)
+  depthMm            Decimal?           @db.Decimal(10, 2)
+  voltageV           String?
+  currentA           String?
+  powerW             String?
+  frequencyHz        String?
+  protectionClassIp  String?
+  operatingTempFromC Int?
+  operatingTempToC   Int?
+  isSellable         Boolean            @default(true)
+  createdAt          DateTime           @default(now())
+  updatedAt          DateTime           @updatedAt
+
+  category           Category                @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+  brand              Brand?                  @relation(fields: [brandId], references: [id], onDelete: SetNull)
+  series             Series?                 @relation(fields: [seriesId], references: [id], onDelete: SetNull)
+  productType        ProductType?            @relation(fields: [productTypeId], references: [id], onDelete: SetNull)
+  variantGroup       ProductVariantGroup?    @relation(fields: [variantGroupId], references: [id], onDelete: SetNull)
+  unitMeasure        UnitMeasure             @relation(fields: [unitMeasureId], references: [id], onDelete: Restrict)
+  specs              ProductSpec[]
+  attributeValues    ProductAttributeValue[]
+  packageItems       ProductPackageItem[]    @relation("PackageParentProduct")
+  includedInPackages ProductPackageItem[]    @relation("PackageComponentProduct")
+  images             ProductImage[]
+  documents          ProductDocument[]
+  orderItems         OrderItem[]
+  cartItems          CartItem[]
+  pricingRules       PricingRule[]
+
+  @@index([name])
+  @@index([productTypeId])
+  @@index([variantGroupId])
+  @@index([unitMeasureId])
+  @@index([categoryId, availability])
+  @@index([categoryId, popularityWeight])
+}
+
+model ProductImage {
+  id        Int      @id @default(autoincrement())
+  productId Int
+  url       String
+  altText   String?
+  isPrimary Boolean  @default(false)
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@index([productId, sortOrder])
+  @@index([productId, isPrimary])
+}
+
+model ProductDocument {
+  id         Int      @id @default(autoincrement())
+  productId  Int
+  title      String
+  url        String
+  fileName   String   @default("")
+  mimeType   String   @default("application/pdf")
+  size       Int      @default(0)
+  storageKey String   @default("")
+  sortOrder  Int      @default(0)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@index([productId, sortOrder])
+  @@index([productId])
+}
+
+model ProductSpec {
+  id        Int      @id @default(autoincrement())
+  productId Int
+  name      String
+  value     String
+  unit      String?
+  createdAt DateTime @default(now())
+
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@index([productId, name])
+}
+
+model AttributeDefinition {
+  id           Int           @id @default(autoincrement())
+  code         String        @unique
+  name         String
+  dataType     AttributeType
+  unit         String?
+  isFilterable Boolean       @default(false)
+  sortOrder    Int           @default(0)
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+
+  values        ProductAttributeValue[]
+  variantGroups ProductVariantGroup[]
+
+  @@index([isFilterable, sortOrder])
+}
+
+model ProductVariantGroup {
+  id          Int      @id @default(autoincrement())
+  name        String
+  code        String   @unique
+  attributeId Int
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  attribute AttributeDefinition @relation(fields: [attributeId], references: [id], onDelete: Restrict)
+  products  Product[]
+
+  @@index([attributeId])
+  @@index([sortOrder, name])
+}
+
+model ProductAttributeValue {
+  id           Int      @id @default(autoincrement())
+  productId    Int
+  attributeId  Int
+  textValue    String?
+  numberValue  Decimal? @db.Decimal(14, 4)
+  booleanValue Boolean?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  product   Product             @relation(fields: [productId], references: [id], onDelete: Cascade)
+  attribute AttributeDefinition @relation(fields: [attributeId], references: [id], onDelete: Restrict)
+
+  @@unique([productId, attributeId])
+  @@index([attributeId, numberValue])
+}
+
+model ProductPackageItem {
+  id                 Int      @id @default(autoincrement())
+  parentProductId    Int
+  componentProductId Int?
+  itemName           String
+  quantity           Decimal  @default(1) @db.Decimal(12, 3)
+  isIncluded         Boolean  @default(true)
+  note               String?
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  parentProduct    Product  @relation("PackageParentProduct", fields: [parentProductId], references: [id], onDelete: Cascade)
+  componentProduct Product? @relation("PackageComponentProduct", fields: [componentProductId], references: [id], onDelete: SetNull)
+
+  @@unique([parentProductId, componentProductId])
+  @@index([parentProductId])
+  @@index([componentProductId])
+}
+
+model PricingRule {
+  id             Int       @id @default(autoincrement())
+  organizationId Int
+  productId      Int
+  minQty         Int       @default(1)
+  price          Decimal   @db.Decimal(12, 2)
+  validFrom      DateTime  @default(now())
+  validTo        DateTime?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  product      Product      @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@unique([organizationId, productId, minQty, validFrom])
+}
+
+model Cart {
+  id             Int      @id @default(autoincrement())
+  organizationId Int      @unique
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  items        CartItem[]
+}
+
+model CartItem {
+  id        Int      @id @default(autoincrement())
+  cartId    Int
+  productId Int
+  quantity  Int
+  unitPrice Decimal  @db.Decimal(12, 2)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  cart    Cart    @relation(fields: [cartId], references: [id], onDelete: Cascade)
+  product Product @relation(fields: [productId], references: [id], onDelete: Restrict)
+
+  @@unique([cartId, productId])
+}
+
+model Order {
+  id                    Int                 @id @default(autoincrement())
+  organizationId        Int
+  createdByUserId       Int?
+  shippingAddressId     Int?
+  number                String              @unique
+  orderStatus           OrderStatus         @default(NEW)
+  paymentStatus         PaymentStatus       @default(PENDING)
+  fulfillmentStatus     FulfillmentStatus   @default(ASSEMBLING)
+  documentStatus        OrderDocumentStatus @default(REQUIRED)
+  paymentType           PaymentType
+  deliveryType          DeliveryType        @default(TRANSPORT_COMPANY)
+  comment               String?
+  shippingCompany       String              @default("")
+  trackingNumber        String              @default("")
+  shippedAt             DateTime?
+  estimatedDeliveryAt   DateTime?
+  deliveredAt           DateTime?
+  shippingCost          Decimal             @default(0) @db.Decimal(12, 2)
+  deliveryContactName   String              @default("")
+  deliveryContactPhone  String              @default("")
+  subtotal              Decimal             @db.Decimal(12, 2)
+  discountTotal         Decimal             @default(0) @db.Decimal(12, 2)
+  vatTotal              Decimal             @default(0) @db.Decimal(12, 2)
+  grandTotal            Decimal             @db.Decimal(12, 2)
+  requestedDeliveryDate DateTime?
+  createdAt             DateTime            @default(now())
+  updatedAt             DateTime            @updatedAt
+
+  organization       Organization         @relation(fields: [organizationId], references: [id], onDelete: Restrict)
+  createdByUser      User?                @relation("OrderCreatedBy", fields: [createdByUserId], references: [id], onDelete: SetNull)
+  shippingAddress    Address?             @relation("OrderShippingAddress", fields: [shippingAddressId], references: [id], onDelete: SetNull)
+  items              OrderItem[]
+  documents          OrderDocument[]
+  invoices           Invoice[]
+  statusHistory      OrderStatusHistory[]
+  notificationEvents NotificationEvent[]
+
+  @@index([organizationId, createdAt])
+  @@index([orderStatus])
+  @@index([paymentStatus])
+  @@index([fulfillmentStatus])
+  @@index([documentStatus])
+}
+
+model NotificationEvent {
+  id            Int                     @id @default(autoincrement())
+  type          NotificationEventType
+  channel       NotificationChannel
+  status        NotificationEventStatus @default(PENDING)
+  target        String?
+  payload       Json
+  attempts      Int                     @default(0)
+  lastError     String?                 @db.Text
+  sentAt        DateTime?
+  contactLeadId Int?
+  orderId       Int?
+  createdAt     DateTime                @default(now())
+  updatedAt     DateTime                @updatedAt
+
+  contactLead ContactLead? @relation(fields: [contactLeadId], references: [id], onDelete: SetNull)
+  order       Order?       @relation(fields: [orderId], references: [id], onDelete: SetNull)
+
+  @@index([status, createdAt])
+  @@index([type])
+  @@index([channel])
+  @@index([contactLeadId])
+  @@index([orderId])
+}
+
+model OrderStatusHistory {
+  id                   Int          @id @default(autoincrement())
+  orderId              Int
+  fromStatus           OrderStatus?
+  toStatus             OrderStatus
+  changedByStaffUserId Int?
+  comment              String?
+  createdAt            DateTime     @default(now())
+
+  order              Order      @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  changedByStaffUser StaffUser? @relation(fields: [changedByStaffUserId], references: [id], onDelete: SetNull)
+
+  @@index([orderId, createdAt])
+  @@index([toStatus])
+  @@index([changedByStaffUserId])
+}
+
+model OrderItem {
+  id                   Int                @id @default(autoincrement())
+  orderId              Int
+  productId            Int
+  productSku           String
+  productName          String
+  quantity             Int
+  unitPrice            Decimal            @db.Decimal(12, 2)
+  vatRate              Decimal            @db.Decimal(5, 2)
+  lineTotal            Decimal            @db.Decimal(12, 2)
+  availabilityAtOrder  AvailabilityStatus @default(IN_STOCK)
+  requiresConfirmation Boolean            @default(false)
+  createdAt            DateTime           @default(now())
+  updatedAt            DateTime           @updatedAt
+
+  order   Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  product Product @relation(fields: [productId], references: [id], onDelete: Restrict)
+
+  @@index([orderId])
+  @@index([productId])
+}
+
+model OrderDocument {
+  id               Int            @id @default(autoincrement())
+  orderId          Int
+  organizationId   Int?
+  uploadedByUserId Int?
+  type             DocumentType
+  status           DocumentStatus @default(DRAFT)
+  number           String?
+  fileUrl          String
+  fileName         String         @default("")
+  mimeType         String         @default("application/octet-stream")
+  size             Int            @default(0)
+  storageKey       String         @default("")
+  issuedAt         DateTime?
+  signedAt         DateTime?
+  expiresAt        DateTime?
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+
+  order        Order         @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  organization Organization? @relation(fields: [organizationId], references: [id], onDelete: SetNull)
+  uploadedBy   User?         @relation("OrderDocumentUploadedBy", fields: [uploadedByUserId], references: [id], onDelete: SetNull)
+
+  @@index([orderId, type])
+  @@index([organizationId])
+  @@index([uploadedByUserId])
+  @@index([status])
+}
+
+model Invoice {
+  id             Int           @id @default(autoincrement())
+  orderId        Int           @unique
+  organizationId Int
+  number         String        @unique
+  status         InvoiceStatus @default(DRAFT)
+  subtotal       Decimal       @db.Decimal(12, 2)
+  vatTotal       Decimal       @default(0) @db.Decimal(12, 2)
+  grandTotal     Decimal       @db.Decimal(12, 2)
+  currency       String        @default("RUB")
+  issuedAt       DateTime?
+  dueAt          DateTime?
+  sentAt         DateTime?
+  paidAt         DateTime?
+  cancelledAt    DateTime?
+  fileUrl        String?
+  fileName       String        @default("")
+  mimeType       String        @default("application/pdf")
+  size           Int           @default(0)
+  storageKey     String        @default("")
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  order        Order        @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Restrict)
+
+  @@index([orderId])
+  @@index([organizationId, createdAt])
+  @@index([status])
+  @@index([dueAt])
+}
+
+model AuditLog {
+  id              Int      @id @default(autoincrement())
+  entityType      String
+  entityId        String
+  field           String
+  oldValue        String?  @db.Text
+  newValue        String?  @db.Text
+  changedByUserId Int?
+  createdAt       DateTime @default(now())
+
+  changedBy User? @relation("AuditLogChangedBy", fields: [changedByUserId], references: [id], onDelete: SetNull)
+
+  @@index([entityType, entityId])
+  @@index([field])
+  @@index([changedByUserId])
+  @@index([createdAt])
+}
+
+model CookieConsentLog {
+  id            Int      @id @default(autoincrement())
+  eventId       String   @unique
+  ipHash        String   @db.Char(64)
+  action        String
+  necessary     Boolean  @default(true)
+  functional    Boolean  @default(false)
+  analytical    Boolean  @default(false)
+  marketing     Boolean  @default(false)
+  policyVersion String
+  consentedAt   DateTime @default(now())
+
+  @@index([ipHash, consentedAt])
+  @@index([consentedAt])
+}

@@ -1,0 +1,301 @@
+<script>
+(function () {
+	'use strict';
+
+	const BANNER_VERSION = '1.0';
+	const STORAGE_KEY = 'cookie_consent_152fz';
+        const CONFIG = {
+		YANDEX_CONSENT_FUNCTION: 'https://functions.yandexcloud.net/d4eh8i7aj7urkfb28s1r',
+	};
+
+	const CATEGORIES = {
+		necessary: {
+			id: 'necessary',
+			label: 'Необходимые',
+			description: 'Обеспечивают работу сайта. Нельзя отключить.',
+			required: true,
+			checked: true,
+			storage: 'до закрытия браузера',
+		},
+		functional: {
+			id: 'functional',
+			label: 'Функциональные',
+			description: 'Запоминают настройки пользователя.',
+			required: false,
+			checked: false,
+			storage: '12 месяцев',
+		},
+		analytical: {
+			id: 'analytical',
+			label: 'Аналитические',
+			description: 'Анализ посещаемости (Яндекс.Метрика и т.д.).',
+			required: false,
+			checked: true,
+			storage: '24 месяца',
+		},
+		marketing: {
+			id: 'marketing',
+			label: 'Маркетинговые',
+			description: 'Используются для рекламы.',
+			required: false,
+			checked: false,
+			storage: '90 дней',
+		},
+	};
+
+	// --- Cookie consent ---
+	function getStoredConsent() {
+		try {
+			const stored = localStorage.getItem(STORAGE_KEY);
+			return stored ? JSON.parse(stored) : null;
+		} catch {
+			return null;
+		}
+	}
+
+	function saveConsent(consent) {
+		const record = Object.assign({}, consent, {
+			timestamp: new Date().toISOString(),
+			version: BANNER_VERSION,
+		});
+		localStorage.setItem(STORAGE_KEY, JSON.stringify(record));
+	}
+
+	async function getClientIP() {
+		try {
+			const r = await fetch('https://api.ipify.org?format=json');
+			const d = await r.json();
+			return d.ip || 'unknown';
+		} catch {
+			return 'unknown';
+		}
+	}
+
+	async function sendConsentToYandex(consent) {
+		const funcUrl =
+			typeof CONFIG !== 'undefined' && CONFIG.YANDEX_CONSENT_FUNCTION
+				? CONFIG.YANDEX_CONSENT_FUNCTION
+				: '';
+		if (!funcUrl || funcUrl.includes('ВАШ-')) return;
+		try {
+			const ip = await getClientIP();
+			await fetch(funcUrl, {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({
+					ip,
+					url: window.location.href,
+					domain: window.location.hostname,
+					timestamp: consent.timestamp || new Date().toISOString(),
+					version: BANNER_VERSION,
+					action: consent.action || 'accept',
+					categories: consent.categories || {},
+				}),
+			});
+		} catch (e) {
+			console.warn('Consent log failed:', e);
+		}
+	}
+
+	function applyConsent(categories, action) {
+		const consent = {
+			consented: action !== 'decline',
+			categories: categories || {},
+			action: action || 'accept',
+		};
+		saveConsent(consent);
+		sendConsentToYandex(consent);
+		loadYandexMetrika();
+		hideBanner();
+		hideSettingsModal();
+	}
+
+	function showBanner() {
+		const el = document.getElementById('cookie-banner');
+		if (el) el.style.display = 'block';
+	}
+
+	function hideBanner() {
+		const el = document.getElementById('cookie-banner');
+		if (el) el.style.display = 'none';
+	}
+
+	function showSettingsModal() {
+		const el = document.getElementById('cookie-settings-modal');
+		if (el) el.style.display = 'flex';
+	}
+
+	function hideSettingsModal() {
+		const el = document.getElementById('cookie-settings-modal');
+		if (el) el.style.display = 'none';
+	}
+
+	function buildBanner() {
+		if (document.getElementById('cookie-banner')) return;
+		const html = `
+            <div id="cookie-banner" role="dialog" aria-label="Согласие на использование cookie" class="cookie-banner">
+                <p class="cookie-banner__text">
+                    Мы используем файлы cookie и сервисы веб-аналитики (включая Яндекс.Метрику) для улучшения работы сайта и анализа посещаемости. Продолжая использовать сайт или нажимая «Принять», вы соглашаетесь с 
+                <a href="/politika-ispolzovaniya-fajlov-cookie.html" target="_blank">Политикой использования файлов Cookie</a>
+                , и даете 
+                <a href="/soglasie-na-obrabotku-personalnyh-dannyh.html" target="_blank">Согласие на обработку персональных данных</a>
+                . Обратите внимание, что вы можете отозвать свое согласие в любое время. При нажатии «Отклонить» данные не собираются.
+                Подробнее в <a href="/politika-obrabotki-personalnyh-dannyh.html" target="_blank">Политике обработки персональных данных</a>.
+                </p>
+                <div class="cookie-banner__buttons">
+                <button type="button" id="cookie-accept-all" class="btn btn-primary">Принять все</button>
+                <button type="button" id="cookie-decline" class="btn btn-secondary">Отклонить</button>
+                <button type="button" id="cookie-settings" class="btn btn-outline">Настроить cookie</button>
+                </div>
+            </div>
+        `;
+
+		document.body.insertAdjacentHTML('beforeend', html);
+
+		document.getElementById('cookie-accept-all').onclick = function () {
+			applyConsent(
+				{ necessary: true, functional: true, analytical: true, marketing: true },
+				'accept',
+			);
+		};
+
+		document.getElementById('cookie-decline').onclick = function () {
+			applyConsent(
+				{ necessary: true, functional: false, analytical: false, marketing: false },
+				'decline',
+			);
+		};
+		document.getElementById('cookie-settings').onclick = showSettingsModal;
+	}
+
+	function buildSettingsModal() {
+		if (document.getElementById('cookie-settings-modal')) return;
+		let catsHtml = '';
+		for (const k in CATEGORIES) {
+			const c = CATEGORIES[k];
+			const disabled = c.required ? ' disabled' : '';
+			const checked = c.checked ? ' checked' : '';
+			catsHtml += `
+                <div class="cookie-category">
+                <input type="checkbox" id="cat-${c.id}" data-cat="${c.id}"${disabled}${checked}>
+                <label for="cat-${c.id}">
+                    <strong>${c.label}${c.required ? ' (всегда включены)' : ''}</strong><br>
+                    <span class="cookie-category__desc">${c.description} Срок: ${c.storage}.</span>
+                </label>
+                </div>
+            `;
+		}
+
+		const html = `
+            <div id="cookie-settings-modal" class="cookie-modal" style="display:none" role="dialog" aria-label="Настройка cookie">
+                <div class="cookie-modal__backdrop" data-close="cookie-settings-modal"></div>
+                <div class="cookie-modal__content">
+                <h2>Настроить cookie</h2>
+                <p>Выберите категории. Подробности — в <a href="cookie-policy.html">Политике cookie</a>.</p>
+                <div class="cookie-modal__categories">${catsHtml}</div>
+                <div class="cookie-modal__buttons">
+                    <button type="button" id="cookie-save-prefs" class="btn btn-primary">Сохранить настройки</button>
+                    <button type="button" id="cookie-modal-cancel" class="btn btn-link">Отмена</button>
+                </div>
+                </div>
+            </div>
+            `;
+
+		document.body.insertAdjacentHTML('beforeend', html);
+
+		document.getElementById('cookie-save-prefs').onclick = function () {
+			const prefs = {
+				necessary: true,
+				functional: false,
+				analytical: false,
+				marketing: false,
+			};
+
+			document
+				.querySelectorAll('.cookie-modal__categories input[type=checkbox]')
+				.forEach(function (cb) {
+					const cat = cb.dataset.cat;
+					if (cat) prefs[cat] = cb.checked;
+				});
+			applyConsent(prefs, 'accept');
+		};
+
+		document.getElementById('cookie-modal-cancel').onclick = hideSettingsModal;
+		document.querySelector('.cookie-modal__backdrop').onclick = hideSettingsModal;
+	}
+
+	function resetConsentAndReload() {
+		localStorage.removeItem(STORAGE_KEY);
+		window.location.reload();
+	}
+
+	// --- Send URL ---
+
+	async function sendUrl() {
+		const btn = document.getElementById('send-url-btn');
+		const msg = document.getElementById('send-url-msg');
+		const url = window.location.href;
+
+		const funcUrl =
+			typeof CONFIG !== 'undefined' && CONFIG.YANDEX_URL_FUNCTION
+				? CONFIG.YANDEX_URL_FUNCTION
+				: '';
+
+		if (!funcUrl || funcUrl.includes('ВАШ-')) {
+			if (msg) msg.textContent = 'Укажите YANDEX_URL_FUNCTION в config.js';
+			if (msg) msg.className = 'send-url-msg send-url-msg--error';
+			return;
+		}
+
+		if (btn) btn.disabled = true;
+
+		if (msg) {
+			msg.textContent = 'Отправка...';
+			msg.className = 'send-url-msg';
+		}
+
+		try {
+			const ip = await getClientIP();
+			const domain = window.location.hostname;
+			const res = await fetch(funcUrl, {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ url, domain, ip }),
+			});
+
+			const data = await res.json().catch(function () {
+				return {};
+			});
+
+			if (!res.ok) throw new Error(data.message || data.error || 'Ошибка ' + res.status);
+			if (msg) msg.textContent = data.message || 'URL отправлен';
+			if (msg) msg.className = 'send-url-msg send-url-msg--success';
+		} catch (err) {
+			if (msg) msg.textContent = err.message || 'Ошибка отправки';
+			if (msg) msg.className = 'send-url-msg send-url-msg--error';
+		} finally {
+			if (btn) btn.disabled = false;
+		}
+	}
+
+	// --- Init ---
+
+	function init() {
+		buildBanner();
+		buildSettingsModal();
+		const consent = getStoredConsent();
+		if (!consent) showBanner();
+		else hideBanner();
+		const sendBtn = document.getElementById('send-url-btn');
+		if (sendBtn) sendBtn.onclick = sendUrl;
+		const settingsBtn = document.getElementById('cookie-reset-btn');
+		if (settingsBtn) settingsBtn.onclick = resetConsentAndReload;
+	}
+
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', init);
+	} else {
+		init();
+	}
+})();
+</script>

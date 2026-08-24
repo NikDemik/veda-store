@@ -1,0 +1,86 @@
+# Dev Log
+
+- 2026-04-20: The `/account` page was reworked into a dashboard with left navigation and separate sections for orders, addresses, and settings.
+- 2026-04-21: Added cart-state checks for add-to-cart buttons on the product card and catalog. If the item is already in the cart, the button shows `In cart` and blocks duplicate submission.
+- 2026-04-21: Fixed `organizationInn` propagation through `NextAuth` JWT/session so the organization INN appears in the checkout form.
+- 2026-04-22: Added delivery selection in checkout with pickup, transport company delivery, and CDEK. Orders now persist `deliveryType`, pickup skips shipping-address validation, and `/account` shows the selected delivery method.
+- 2026-04-22: Extracted the checkout delivery-method block into a separate component and moved the submit button to the order summary column in `checkout-page-view.tsx`.
+- 2026-04-22: For transport company delivery, checkout now requests the organization's saved shipping addresses, suggests them in the delivery block, and can submit an order with an existing `shippingAddressId`.
+- 2026-04-23: Fixed saving a new checkout shipping address after moving to one-line `fullAddress`. The order API now derives required address parts from the full string, and the checkout input reflects the currently selected or typed address.
+- 2026-04-27: Added DaData address autocomplete for checkout transport-company delivery. New addresses are still entered and stored as one-line `fullAddress`, while detailed address fields from DaData are saved to `Address` in the background.
+- 2026-04-27: Rebuilt `/account` into a tabbed profile dashboard. The default "Личный кабинет" tab now shows order KPIs and a six-month chart, and the "Заказы" tab now renders full order details with expandable item lists.
+- 2026-04-28: Fixed `/account` Server-to-Client serialization for Prisma `Decimal` values in orders. Totals, prices, and VAT are now converted to plain numbers before rendering the client dashboard.
+- 2026-04-28: Added selection and deletion for `/account` orders and addresses. Users can mark items with checkboxes and remove them through new authenticated `DELETE` API routes.
+- 2026-04-28: Reworked the `/account` settings tab into an editable registration-data form. Only registration fields are shown now, and updates are saved via the new authenticated `PATCH /api/account/settings` route, including optional password changes.
+- 2026-04-28: Restored kopeck precision for product prices in Prisma (`Product.price`/`priceOld` back to `Decimal(12, 2)`) and unified price formatting: catalog hides kopecks, while the product page, cart, checkout, account, and client-side totals now display and calculate with two decimals.
+- 2026-04-28: Added organization type to registration and account settings. DaData party lookup maps OPF values to `Organization.type`, the registration API persists it, and the account settings API can update it.
+- 2026-04-29: Added internal staff accounts to Prisma with `StaffRole` and `StaffUser`, and extended seed data with the first `SUPERADMIN` account for future admin-panel access.
+- 2026-04-29: Added `OrderStatusHistory` to track order status transitions for the admin panel, including previous status, new status, responsible staff user, comment, and timestamp.
+- 2026-04-30: Expanded `OrderDocument` for admin operations with document status, uploader relation, file metadata, storage key, signing/expiration dates, optional organization relation, and additional document types.
+- 2026-04-30: Split the combined order status into independent lifecycle, payment, fulfillment, and document status fields, with migration backfill for existing orders and status history.
+- 2026-04-30: Added detailed order shipping fields and a universal `AuditLog` model for tracking changes to statuses, prices, clients, addresses, and documents.
+- 2026-04-30: Made `PricingRule.validFrom` required and backfilled existing nulls to close the MySQL unique-index gap for organization/product/min-quantity price rules.
+- 2026-04-30: Added staff admin entry points: `/admin/login` for `StaffUser` authentication and `/admin` for the operational all-orders dashboard.
+- 2026-05-04: Reworked `/admin` to match the `/account` dashboard structure. The server page now loads data and passes it into a client dashboard with "Заказы" and "Организации" tabs.
+- 2026-05-04: Wrapped `/admin/login` search-parameter usage in a Suspense boundary so Next.js production prerendering can complete.
+- 2026-05-04: Added a `react-hook-form` callback form for `/contacts` with name, phone, personal-data consent checkbox, and a "Заказать звонок" submit button.
+- 2026-05-05: Updated the `/contacts` callback form so the submit button stays disabled until all required fields are valid and the consent checkbox is checked.
+- 2026-05-05: Updated `/services` service-card colors: the second and third cards now use grey backgrounds with black content, and the fourth uses dark grey with blue content.
+- 2026-05-06: Added `Category.imageUrl` to Prisma with a migration and demo seed values. The `/catalog` category cards now render category images from database data instead of the local slug-to-image map.
+- 2026-05-12: Added a separate `/admin` App Router layout with its own admin header and footer, while public, shop, and account pages keep the storefront shell in their route layouts.
+- 2026-05-12: Reviewed admin authentication: `StaffUser` remains separate from customer NextAuth users, admin sessions use a signed httpOnly cookie, logout now clears it with matching cookie options, production requires an auth secret, and login callback redirects are limited to `/admin`.
+- 2026-05-13: Added a collapsible "Товары" section to `/admin` with "Все товары", "Добавить / редактировать товар", and "Категории" screens. The admin page now loads product, category, brand, and series data from Prisma for catalog management views.
+- 2026-05-13: Split the admin dashboard into scalable modules: `admin-dashboard.tsx` now works as the container, tab content lives in `src/components/admin/tabs`, and shared admin types, formatting, UI primitives, and navigation are separated.
+- 2026-05-13: Reworked the admin product add/edit form into a step-by-step flow with main product fields, pricing and stock, Product parameter fields, dynamic ProductSpec rows, ProductImage gallery rows, and a datasheet URL field. The admin product query now loads the extended Product, ProductSpec, and ProductImage data needed by the form.
+- 2026-05-14: Added a "Серии товаров" tab inside the admin products section. The admin page now loads series slugs, descriptions, and product counts from Prisma, and the new tab mirrors category management with a list, metrics, and a new-series form.
+- 2026-05-14: Wired the admin "Добавить серию" form to `POST /api/admin/series`. The API checks the staff admin session, validates name/slug/description with Zod, creates a Prisma `Series`, handles duplicate slugs, and the client form refreshes `/admin` after success.
+- 2026-05-14: Wired the admin "Добавить категорию" form to `POST /api/admin/categories`. The API checks the staff admin session, validates name/slug/parent/image/description, creates a Prisma `Category`, handles duplicate slugs, and the client form refreshes dashboard data after success.
+- 2026-05-14: Added admin category editing and deletion. Category rows now reveal edit/delete icons on hover, edit mode reuses the category form, deletion uses a modal confirmation question, and `PATCH/DELETE /api/admin/categories/[categoryId]` update or remove categories with staff checks and Prisma constraint handling.
+- 2026-05-14: Added admin series editing and deletion. Series rows now reveal edit/delete icons on hover, edit mode reuses the series form, deletion uses a modal confirmation question, and `PATCH/DELETE /api/admin/series/[seriesId]` update or remove series with staff checks.
+- 2026-05-14: Simplified the admin product form to add-only mode. Removed product selection for editing and wired "Сохранить товар" to `POST /api/admin/products`, which validates fields, creates `Product`, and nests non-empty `ProductSpec` and `ProductImage` rows.
+- 2026-05-14: Fixed admin product creation when text fields exceed MySQL `VARCHAR(191)` limits. Product API validation now matches the database column sizes, handles Prisma `P2000` with a readable message, and the add-product form limits affected text inputs.
+- 2026-05-15: Added edit/delete actions to the admin "Все товары" list. Product rows reveal edit/delete icons on hover, edit opens the existing product form with current values, delete uses a modal confirmation, and `PATCH/DELETE /api/admin/products/[productId]` update or remove products with staff checks.
+- 2026-05-15: Reworked the home hero blurred background layer to render `/img/bg-hero.png` through the Next.js `<Image>` component with `fill`, `priority`, and responsive sizing.
+- 2026-05-15: Removed obsolete Clerk-related files (`promt.txt` and `src/components/auth/ClerkLoginModal.tsx`). The project keeps the existing NextAuth customer flow and custom staff admin session flow.
+- 2026-05-15: Changed order creation to generate sequential order numbers from the latest saved database order, with a retry on unique-number conflicts during concurrent submissions.
+- 2026-05-19: Prepared Vercel deployment notes. Added safe environment placeholders, documented Vercel settings and required variables, and added `postinstall` Prisma Client generation for clean CI installs.
+- 2026-05-19: Fixed Vercel install failure caused by an incompatible pnpm version. The project now pins `pnpm@10.33.2` and declares a supported Node engine range so Vercel uses a lockfile-compatible package manager.
+- 2026-05-19: Added `vercel.json` to force Corepack activation of `pnpm@10.33.2` before Vercel installs dependencies, preventing the old global pnpm from ignoring the lockfile.
+- 2026-05-19: Relaxed the Vercel install command to `pnpm install --no-frozen-lockfile` after Vercel continued to reject the committed lockfile as incompatible in CI.
+- 2026-05-20: Switched the project package manager from pnpm to npm. Updated package manager metadata, Vercel install/build commands, deployment documentation, and prepared npm lockfile workflow.
+- 2026-05-20: Marked Prisma-backed catalog, product, account, and admin pages as dynamic so Vercel build does not prerender them against MySQL.
+- 2026-05-20: Added `GET /api/health/db` runtime diagnostics for Vercel deployments and restored safe placeholder values in `.env.example`.
+- 2026-05-20: Extended database health diagnostics with sanitized MySQL host/port parsing, TCP socket check, and structured Prisma error details.
+- 2026-05-22: Added an interactive product detail gallery. `/product/[slug]` now loads `ProductImage` records, shows left-side thumbnails when multiple images exist, and switches the smaller main image on thumbnail click without changing the page grid.
+- 2026-05-25: Allowed product images from the Yandex Object Storage bucket `website-image-catalogs` in `next.config.ts` so `next/image` can render catalog image URLs from `storage.yandexcloud.net`.
+- 2026-05-22: Added production-ready Yandex Cloud Object Storage integration for admin product assets. Staff admins can upload product images and PDF datasheets through a protected S3-compatible API backed by `@aws-sdk/client-s3`; uploaded URLs are saved into existing product media fields.
+- 2026-05-28: Updated product image Object Storage keys to use the brand/series/product sequence format. The admin uploader now sends brand, series, product slug, and sequential image number when uploading product images.
+- 2026-05-29: Simplified the admin product media step to a single `ProductImage` gallery uploader. The primary checkbox is forced on and disabled for a single row, switches exclusively between rows when multiple images exist, and the selected primary image is saved into `Product.imageUrl`.
+- 2026-05-29: Added a separate Prisma `ProductDocument` model linked to `Product`, allowing each product to store multiple documentation files with titles, URLs, file metadata, storage keys, and sort order.
+- 2026-05-29: Extended the admin product documentation step with dynamic document rows, PDF uploads per row, metadata capture, and create/update persistence into `ProductDocument`.
+- 2026-05-29: Updated the product detail page to load and render documentation from `ProductDocument` records instead of the legacy `Product.datasheetUrl` field.
+- 2026-05-29: Changed product document upload keys to `catalogs/{brandSlug}/{seriesSlug}/{fileName}` so uploaded PDFs are grouped by brand and series while preserving the uploaded file name.
+- 2026-05-29: Updated product image upload keys to include the `images/` prefix: `images/{brandSlug}/{seriesSlug}/{productSlug}-{sequence}.{ext}`.
+- 2026-05-29: Added client-side upload validation for product images and PDF documents, and changed upload error handling to show the actual browser error message when the request fails before the API responds.
+- 2026-05-29: Made admin upload response parsing tolerant of non-JSON Vercel errors, including `Request Entity Too Large`, so the UI shows a clear Vercel payload-limit message.
+- 2026-05-29: Added `POST /api/admin/storage/presign` and switched admin asset uploads to direct browser PUT requests against Yandex Object Storage presigned URLs, avoiding Vercel Function payload limits for product PDFs.
+- 2026-05-29: Updated the Vercel build pipeline to run `prisma migrate deploy` before `next build`, and stopped ignoring `vercel.json` so production tables such as `ProductDocument` are created before catalog runtime queries.
+- 2026-06-01: Added shared breadcrumbs for all non-home pages through `src/components/base/site-breadcrumbs.tsx` and mounted them in public, shop, account, and admin layouts.
+- 2026-06-01: Updated product-page breadcrumbs to use catalog data from the product's Prisma category and name.
+- 2026-06-01: Extracted catalog breadcrumbs into `src/components/catalog/catalog-breadcrumbs.tsx` for category and product catalog paths.
+- 2026-06-01: Added a `Каталог` link to catalog breadcrumbs, so category and product paths now include `Главная / Каталог / ...`.
+- 2026-06-01: Hid the service `auth` URL segment from shared breadcrumbs so login and registration do not show an intermediate `/auth` link.
+- 2026-06-01: Added a modal notification to the admin product add/edit form. Save attempts from the "Сохранить товар" button now open a dialog with success or error feedback while keeping the inline form status message.
+- 2026-06-01: Added a pre-save confirmation modal to the admin product form. New products show "Добавить новый товар", existing products show "Внести изменение в карточку товара", and successful saves now show "Товар сохранен".
+- 2026-06-01: Changed the admin product save flow to return users to the "Все товары" tab after a product is added or edited successfully.
+- 2026-06-02: Made catalog category sorting functional. `src/components/catalog/CatalogSortSelect.tsx` writes the selected `sort` value to the URL, and `/catalog/[slug]` applies it to Prisma product ordering while preserving active filters.
+- 2026-06-02: Added popularity sorting to catalog categories. Products now have a manual `popularityWeight`, the admin product form saves it, and `sort=popular` ranks by manual weight plus sold quantity from non-cancelled order items.
+- 2026-06-02: Changed catalog category default sorting to popularity. Missing or invalid `sort` values now use `popular`, and choosing popularity clears the URL sort parameter.
+- 2026-06-02: Changed `/catalog` category ordering from alphabetical to popularity by summing sold product quantities from non-cancelled order items in each category.
+- 2026-06-02: Made the entire `/catalog` category card clickable, linking every card area to `/catalog/{category.slug}` while keeping the arrow as a visual affordance.
+- 2026-06-02: Added a catalog add-to-cart confirmation modal with product image, name, price, cart quantity selector, and "Перейти в корзину" / "Продолжить покупки" actions.
+- 2026-06-02: Reworked the catalog add-to-cart modal to use the same inline overlay/card pattern as the admin product form modal, with `bg-black/45` over visible page content.
+- 2026-06-05: Added the add-to-cart confirmation modal to product detail pages and changed the product page button to show "В корзине" once the item is already in the cart.
+- 2026-06-05: Added product availability output to `/product/[slug]`. The page now loads `availability`, `stockQty`, and `unit`, shows the remaining quantity before the quantity selector, and displays "Нет в наличии" when the product is not in stock.
+- 2026-06-05: Added filters to the admin "Все товары" product list after the metrics. Staff can filter the table by article/SKU, category, and availability, reset the active filters, and see the filtered result count.
+- 2026-06-05: Moved the admin add-product entry point from the products submenu into the "Все товары" tab. The tab now has a "Добавить товар" button that opens the existing product form with no editing product selected.
