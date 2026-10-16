@@ -1,0 +1,128 @@
+{
+  "title": "Специализированный преобразователь частоты VEDA VFD VF-101 Basic Drive (Базовый привод) с функцией STO - ABC01203",
+  "description": "",
+  "descriptionHtml": "",
+  "documents": [
+    {
+      "title": "Приложение к инструкции по эксплуатации VF-101 функция STO.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/e8996aac-9277-4c1d-a47a-e39d5cc942b7/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8%20%D0%BF%D0%BE%20%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D0%B0%D1%86%D0%B8%D0%B8%20VF-101%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F%20STO.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/82cbde573f57-Приложение к инструкции по эксплуатации VF-101 функция STO.pdf",
+      "bytes": 332554,
+      "sha256": "482ea5d703b3e51035f5fa4a83b804f0a7dc0e38b19a767780a09d22548c44d9",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:06:44.223Z"
+    },
+    {
+      "title": "Морской сертификат ПЧ РМРС.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/75f5ef1f-78ed-48ec-9fe2-4903867ed1af/%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%9F%D0%A7%20%D0%A0%D0%9C%D0%A0%D0%A1.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/899d0bbd49e7-Морской сертификат ПЧ РМРС.pdf",
+      "bytes": 177771,
+      "sha256": "10b1bdf9fc9f89ef9ce022192ab7e7f27a988851a3445e9f8de323d7ae3ad554",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Декларация о соответствии ТР ТС 020_2011.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/f5dae083-dc84-4148-899f-e4a8a8b21530/%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BE%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B8%20%D0%A2%D0%A0%20%D0%A2%D0%A1%20020_2011.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/195d4fe15eca-Декларация о соответствии ТР ТС 020_2011.pdf",
+      "bytes": 173719,
+      "sha256": "a834fb5db62aa1886ff3b74eb61a7cc1edc337282f707d6fa761f3ae87ec4c69",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Сертификат соответствия ТР ТС 004_2011.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/b84cd99a-c690-4259-9daa-9d27de25a7a0/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D1%8F%20%D0%A2%D0%A0%20%D0%A2%D0%A1%20004_2011.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/bb04e8ce2cff-Сертификат соответствия ТР ТС 004_2011.pdf",
+      "bytes": 171673,
+      "sha256": "6baf8f62dce84984642a7abc733c3a0aaf70aaef44505eb79329e144e43f8262",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    }
+  ],
+  "sku": "ABC01203",
+  "characteristics": [
+    {
+      "name": "Типовой код",
+      "value": "VF-101-P75K-0150-U-T4-E20-B-H-D-HW01"
+    },
+    {
+      "name": "Выходная мощность, кВт",
+      "value": "75"
+    },
+    {
+      "name": "Входное напряжение, В",
+      "value": "400"
+    },
+    {
+      "name": "Номинальный выходной ток, А",
+      "value": "150"
+    },
+    {
+      "name": "Торм.ключ",
+      "value": "встроенный"
+    },
+    {
+      "name": "Тепловые потери, Вт",
+      "value": "1650"
+    },
+    {
+      "name": "ВхШхГ, мм",
+      "value": "558х249,4х310"
+    },
+    {
+      "name": "Масса, кг",
+      "value": "25"
+    },
+    {
+      "name": "Дроссель",
+      "value": "встроенный"
+    },
+    {
+      "name": "Типоразмер",
+      "value": "B6"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/categories/300/advancedparams/VF101sto.png",
+      "alt": null,
+      "localPath": "assets/images/0b397697ec5a-VF101sto.png",
+      "bytes": 80109,
+      "sha256": "b240442cb097b8fee125234bec95b500590c8ab832eedea57c6e17108f1c1bbd",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:06:44.223Z",
+      "inheritedFrom": "https://drives.ru/category/veda/preobrazovateli-chastoty-veda-vfd/spetsializirovannyy-preobrazovatel-chastoty-veda-vfd-vf-101-basic-drive-bazovyy-privod-s-funktsiey-sto/"
+    }
+  ],
+  "price": {
+    "raw": "690 126,80 ₽",
+    "currency": "RUB",
+    "tax": "без НДС"
+  },
+  "availability": "Артикул: ABC01203Под заказ",
+  "source": {
+    "url": "https://drives.ru/spetsializirovannyy-preobrazovatel-chastoty-veda-vfd-vf-101-basic-drive-bazovyy-privod-s-funktsiey-sto-abc01203/",
+    "rawHtml": "raw/pages/531649bde8d7396c6f4f.html",
+    "sha256": "febb93475a9b30991113c36b0d1753e08a0ddfcc6712004f08922fb2e3b62470",
+    "collectedAt": "2026-10-16T10:21:39.137Z"
+  },
+  "seriesId": "VF-101-STO",
+  "categoryPath": [
+    "Низковольтные ПЧ и УПП",
+    "Преобразователи частоты VEDA VFD",
+    "Специализированный преобразователь частоты VEDA VFD VF-101 Basic Drive (Базовый привод) с функцией STO"
+  ],
+  "model": "VF-101-P75K-0150-U-T4-E20-B-H-D-HW01",
+  "schemaVersion": 1,
+  "warnings": [
+    {
+      "type": "no-product-image",
+      "message": "Source has no product photo; series image used when available."
+    }
+  ]
+}

@@ -496,7 +496,7 @@ export function SettingsTab({ companyProfile, notificationSetting }: SettingsTab
                                 <input className={inputClassName} name="smtpFromEmail" defaultValue={notificationSetting?.smtpFromEmail ?? ''} type="email" />
                             </FormField>
                             <FormField label="Имя отправителя">
-                                <input className={inputClassName} name="smtpFromName" defaultValue={notificationSetting?.smtpFromName ?? ''} placeholder="Anneng" />
+                                <input className={inputClassName} name="smtpFromName" defaultValue={notificationSetting?.smtpFromName ?? ''} placeholder="Имя отправителя" />
                             </FormField>
                             <FormField label="SMTP host">
                                 <input className={inputClassName} name="smtpHost" defaultValue={notificationSetting?.smtpHost ?? ''} placeholder="smtp.example.ru" />

@@ -1,0 +1,171 @@
+{
+  "title": "Внешний графический пульт оператора для преобразователя частоты VEDA VFD — PBC00011",
+  "description": "ОписаниеГрафический пульт оператора с англоязычным интерфейсом. Пульт предназначен для работы с преобразователями частоты серий VF-51 и VF-101. Он представляет возможности: – полной настройки преобразователя частоты с описанием настраиваемых параметром; – пуска, остановки и удобного задания частоты при помощи встроенного поворотного энкодера; – загрузки и выгрузки параметров преобразователя частоты, что позволяет удобно переносить настройки с одного преобразователя в другой. К заказу доступны панели с англоязычным и русскоязычным интерфейсом. Подключение осуществляется при помощи разъема RJ-45.В комплекте идет держатель пульта.",
+  "descriptionHtml": "<div class=\"in-blocks__title\"><div class=\"in-blocks__title-name\">Описание</div></div><div class=\"page\"><div class=\"desc\"><p>Графический пульт оператора с&nbsp;англоязычным интерфейсом. Пульт предназначен для работы с преобразователями частоты серий <a href=\"https://drives.ru/category/veda/preobrazovateli-chastoty-veda-vfd/vf-51-micro-drive/\" target=\"_blank\">VF-51</a> и <a href=\"https://drives.ru/category/veda/preobrazovateli-chastoty-veda-vfd/vf-101-basic-drive/\" target=\"_blank\">VF-101</a>.&nbsp;Он представляет возможности:&nbsp;</p>\n\n<p>– полной настройки преобразователя частоты с описанием настраиваемых параметром;&nbsp;</p>\n\n<p>– пуска, остановки и удобного задания частоты при помощи встроенного поворотного энкодера;&nbsp;</p>\n\n<p>– загрузки и выгрузки параметров преобразователя частоты, что позволяет удобно переносить настройки с одного преобразователя в другой.&nbsp;</p>\n\n<p>К заказу доступны панели&nbsp;с англоязычным и&nbsp;<a href=\"https://drives.ru/1667/\" target=\"_blank\">русскоязычным интерфейсом</a>.</p>\n\n<p>Подключение осуществляется при помощи разъема RJ-45.В комплекте идет держатель пульта.</p></div></div>",
+  "documents": [
+    {
+      "title": "Лифлет VEDA VFD VF-302L Lift Drive.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/a67851e7-dadb-4185-8be8-9c8c8c63dbc9/%D0%9B%D0%B8%D1%84%D0%BB%D0%B5%D1%82%20VEDA%20VFD%20VF-302L%20Lift%20Drive.pdf",
+      "group": "Брошюры и листовкиexpand_more",
+      "localPath": "assets/documents/359b57b071e1-Лифлет VEDA VFD VF-302L Lift Drive.pdf",
+      "bytes": 235559,
+      "sha256": "c94183384a02dc0e86459f8383c7261d9748f87f7744f2abb490c1649b8f8225",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z",
+      "inheritedFrom": "https://drives.ru/category/veda/preobrazovateli-chastoty-veda-vfd/vfd-vf-302l-lift-drive/"
+    },
+    {
+      "title": "Технические данные VEDA VFD VF-302L Lift Drive.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/fc0bbbc2-334a-4665-b442-ba1e052642b2/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20VEDA%20VFD%20VF-302L%20Lift%20Drive.pdf",
+      "group": "Инструкцииexpand_more",
+      "localPath": "assets/documents/878d2771127d-Технические данные VEDA VFD VF-302L Lift Drive.pdf",
+      "bytes": 1137933,
+      "sha256": "d828152e3d51c0c3eaaadfed74692154fa7408d89e7b8b34c041f346365958c0",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z",
+      "inheritedFrom": "https://drives.ru/category/veda/preobrazovateli-chastoty-veda-vfd/vfd-vf-302l-lift-drive/"
+    },
+    {
+      "title": "Чертежи VF-302L LiftDrive.zip",
+      "sourceUrl": "https://drives.ru/dh-files/63e4c369-bb74-4979-afd2-d8a3d41a6a20/%D0%A7%D0%B5%D1%80%D1%82%D0%B5%D0%B6%D0%B8%20VF-302L%20LiftDrive.zip",
+      "group": "Чертежиexpand_more",
+      "localPath": "assets/documents/3930836d9132-Чертежи VF-302L LiftDrive.zip",
+      "bytes": 869550,
+      "sha256": "a807bfe9302fd035cfe7f5b18dc107ad440e3a963b6b2847a1dabc885b600048",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z",
+      "inheritedFrom": "https://drives.ru/category/veda/preobrazovateli-chastoty-veda-vfd/vfd-vf-302l-lift-drive/"
+    },
+    {
+      "title": "Морской сертификат ПЧ РМРС.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/75f5ef1f-78ed-48ec-9fe2-4903867ed1af/%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%9F%D0%A7%20%D0%A0%D0%9C%D0%A0%D0%A1.pdf",
+      "group": "Сертификатыexpand_more",
+      "localPath": "assets/documents/899d0bbd49e7-Морской сертификат ПЧ РМРС.pdf",
+      "bytes": 177771,
+      "sha256": "10b1bdf9fc9f89ef9ce022192ab7e7f27a988851a3445e9f8de323d7ae3ad554",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z",
+      "inheritedFrom": "https://drives.ru/category/veda/preobrazovateli-chastoty-veda-vfd/vfd-vf-302l-lift-drive/"
+    },
+    {
+      "title": "Декларация о соответствии ТР ТС 020_2011.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/f5dae083-dc84-4148-899f-e4a8a8b21530/%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BE%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B8%20%D0%A2%D0%A0%20%D0%A2%D0%A1%20020_2011.pdf",
+      "group": "Сертификатыexpand_more",
+      "localPath": "assets/documents/195d4fe15eca-Декларация о соответствии ТР ТС 020_2011.pdf",
+      "bytes": 173719,
+      "sha256": "a834fb5db62aa1886ff3b74eb61a7cc1edc337282f707d6fa761f3ae87ec4c69",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z",
+      "inheritedFrom": "https://drives.ru/category/veda/preobrazovateli-chastoty-veda-vfd/vfd-vf-302l-lift-drive/"
+    },
+    {
+      "title": "Сертификат соответствия ТР ТС 004_2011.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/b84cd99a-c690-4259-9daa-9d27de25a7a0/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D1%8F%20%D0%A2%D0%A0%20%D0%A2%D0%A1%20004_2011.pdf",
+      "group": "Сертификатыexpand_more",
+      "localPath": "assets/documents/bb04e8ce2cff-Сертификат соответствия ТР ТС 004_2011.pdf",
+      "bytes": 171673,
+      "sha256": "6baf8f62dce84984642a7abc733c3a0aaf70aaef44505eb79329e144e43f8262",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z",
+      "inheritedFrom": "https://drives.ru/category/veda/preobrazovateli-chastoty-veda-vfd/vfd-vf-302l-lift-drive/"
+    },
+    {
+      "title": "Чертеж PBC00011.zip",
+      "sourceUrl": "https://drives.ru/dh-files/081ea26c-22c0-44f3-8485-7f15cfb4923b/%D0%A7%D0%B5%D1%80%D1%82%D0%B5%D0%B6%20PBC00011.zip",
+      "group": "Чертежи expand_more",
+      "localPath": "assets/documents/84ab49a5932d-Чертеж PBC00011.zip",
+      "bytes": 4569663,
+      "sha256": "c86dccb93923758acaf50640253b513cf561d2ddac57d25711c45161bd9eb064",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "3D модель PBC00011.zip",
+      "sourceUrl": "https://drives.ru/dh-files/f523f6f2-fe89-4a8d-b4eb-7dab863a59d7/3D%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%20PBC00011.zip",
+      "group": "3D Модели expand_more",
+      "localPath": "assets/documents/1499f57b079f-3D модель PBC00011.zip",
+      "bytes": 1390678,
+      "sha256": "43c0ae1e37048884cd92e40720cb5d3fe9a5fc242baaaf4a0fe63ca066ac8607",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    }
+  ],
+  "sku": "PBC00011",
+  "characteristics": [
+    {
+      "name": "ВхШхГ, мм",
+      "value": "40x80x140"
+    },
+    {
+      "name": "Масса, кг",
+      "value": "0,075"
+    },
+    {
+      "name": "Сетевой интерфейс",
+      "value": "нет"
+    },
+    {
+      "name": "Входы-выходы",
+      "value": "нет"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/65/16/1665/images/1419/1419.970.png",
+      "alt": "Внешний графический пульт оператора для преобразователя частоты VEDA VFD — PBC00011",
+      "localPath": "assets/images/33fe3f08f9b1-1419.970.png",
+      "bytes": 56944,
+      "sha256": "ac7bdc5d866e32de73a403e35b8177cde0e55749c8b73ccb2d3385ea38b6c1d2",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/65/16/1665/images/6113/6113.970.png",
+      "alt": "Внешний графический пульт оператора для преобразователя частоты VEDA VFD — PBC00011",
+      "localPath": "assets/images/efea360f8d5a-6113.970.png",
+      "bytes": 399802,
+      "sha256": "6a2c29d3ed899a9bc44c777df563af28e026d2ef7b742dc8765ff3cbc03d774a",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/65/16/1665/images/6114/6114.970.png",
+      "alt": "Внешний графический пульт оператора для преобразователя частоты VEDA VFD — PBC00011",
+      "localPath": "assets/images/5b9048d0ab6d-6114.970.png",
+      "bytes": 365490,
+      "sha256": "4f058426d183a74e88208bc2055ea835d0dda07f94fbaea9e46235ce23d8fcc7",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/65/16/1665/images/6115/6115.970.png",
+      "alt": "Внешний графический пульт оператора для преобразователя частоты VEDA VFD — PBC00011",
+      "localPath": "assets/images/06b174bd24ac-6115.970.png",
+      "bytes": 424552,
+      "sha256": "d93fcd654a68a9e526ea90e9eadefb8cab8276dc316ded7e04d5a15a6badb6b5",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    }
+  ],
+  "price": {
+    "raw": "12 502,20 ₽",
+    "currency": "RUB",
+    "tax": "без НДС"
+  },
+  "availability": "Артикул: PBC00011На складе в Москве",
+  "source": {
+    "url": "https://drives.ru/1665/",
+    "rawHtml": "raw/pages/23e36e861a56726c22cb.html",
+    "sha256": "b0ef3fb3577aafc25923397c7909b3c269043a693bf571c53fcad0326004f8cf",
+    "collectedAt": "2026-10-16T10:21:39.137Z"
+  },
+  "seriesId": "VF-302L",
+  "categoryPath": [
+    "Низковольтные ПЧ и УПП",
+    "Преобразователи частоты VEDA VFD",
+    "Преобразователи частоты VEDA VFD серии VF-302L Lift Drive (Лифтовый привод)"
+  ],
+  "model": null,
+  "schemaVersion": 1,
+  "warnings": []
+}

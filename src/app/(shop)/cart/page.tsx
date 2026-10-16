@@ -3,7 +3,7 @@ import { createPageMetadata } from '@/lib/metadata';
 
 export const metadata = createPageMetadata(
     'Корзина',
-    'Корзина товаров Anneng перед оформлением заказа.',
+    'Корзина товаров VEDA VFD перед оформлением заказа.',
 );
 
 export default function CartPage() {

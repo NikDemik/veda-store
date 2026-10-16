@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: LegalDocumentRouteProps) {
     const document = getLegalDocument(slug);
 
     if (!document) {
-        return createPageMetadata('Правовой документ', 'Правовая информация Anneng Electric.');
+        return createPageMetadata('Правовой документ', 'Правовая информация VEDA VFD.');
     }
 
     return createPageMetadata(document.title, document.summary);

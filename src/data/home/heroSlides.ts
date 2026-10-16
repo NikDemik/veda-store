@@ -5,6 +5,7 @@ export type HeroSlide = {
     description: string[];
     image: string;
     imageAlt: string;
+    background: string;
 };
 
 export const heroSlides: HeroSlide[] = [
@@ -16,7 +17,8 @@ export const heroSlides: HeroSlide[] = [
             'Экономичный и компактный частотный преобразователь, мощностью от 0,4 до 7,5 кВт',
         ],
         image: '/img/hero/veda-vfd-vf-11.png',
-        imageAlt: 'Преобразователь частоты VEDA',
+        imageAlt: 'Преобразователь частоты VEDA VFD VF-11 Compact Drive',
+        background: '/img/hero/vf-11-background.webp',
     },
     {
         title: 'Преобразователи частоты',
@@ -26,7 +28,8 @@ export const heroSlides: HeroSlide[] = [
             'Универсальный и компактный преобразователь частоты, мощностью от 0,75 до 22 кВт.',
         ],
         image: '/img/hero/veda-vfd-vf-51.png',
-        imageAlt: 'Преобразователь частоты VEDA',
+        imageAlt: 'Преобразователь частоты VEDA VFD VF-51 Micro Drive',
+        background: '/img/hero/vf-51-background.webp',
     },
     {
         title: 'Преобразователи частоты',
@@ -37,6 +40,7 @@ export const heroSlides: HeroSlide[] = [
             'Специализированный преобразователь частоты мощностью от 0,75 до 1120 кВт.',
         ],
         image: '/img/hero/veda-vfd-vf-101.png',
-        imageAlt: 'Преобразователь частоты VEDA',
+        imageAlt: 'Преобразователь частоты VEDA VFD VF-101 Basic Drive',
+        background: '/img/hero/vf-101-background.webp',
     },
 ];

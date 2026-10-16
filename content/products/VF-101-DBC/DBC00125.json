@@ -1,0 +1,248 @@
+{
+  "title": "Преобразователь частоты VEDA VFD — DBC00125 — VF-101-P2K2-0006-U-T4-C54-B-H",
+  "description": "ОписаниеПреобразователь частоты VEDA VFD VF-101 Basic Drive (Базовый привод) с высокой перегрузкой — DBC00125 — VF-101-P2K2-0006-U-T4-C54-B-H. Специализированный преобразователь частоты совместим с различными сетевыми протоколами. Данная серия имеет специальные насосные и вентиляторные функции. Подходит для применения с насосами, вентиляторами, системами пожаротушения.Входное напряжение 3*380В.Максимальная выходная мощность 2,2 кВт. Тепловые потери 66 Вт.Номинальный ток 6A. Перегрузочная способность высокая: 150% — 89 с, 180% — 10 с, 200% — 3 с. Класс защиты IP54, металлический корпус. Встроенный тормозной прерыватель.Преобразователь частоты имеет базовый класс ЭМС. Без дросселя.",
+  "descriptionHtml": "<div class=\"in-blocks__title\"><div class=\"in-blocks__title-name\">Описание</div></div><div class=\"page\"><div class=\"desc\"><p><strong>Преобразователь частоты VEDA VFD VF-101 Basic Drive (Базовый привод) с высокой перегрузкой — DBC00125 — VF-101-P2K2-0006-U-T4-C54-B-H.</strong><br><br> Специализированный преобразователь частоты совместим с различными сетевыми протоколами. Данная серия имеет специальные насосные и вентиляторные функции. Подходит для применения с насосами, вентиляторами, системами пожаротушения.<br><br>Входное напряжение 3*380В.<br>Максимальная выходная мощность 2,2 кВт. Тепловые потери 66 Вт.<br>Номинальный ток 6A. Перегрузочная способность высокая: 150% — 89 с, 180% — 10 с, 200% — 3 с. Класс защиты IP54, металлический корпус. Встроенный тормозной прерыватель.<br>Преобразователь частоты имеет базовый класс ЭМС. Без дросселя.</p></div></div>",
+  "documents": [
+    {
+      "title": "Каталог VEDA VFD.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/d8835727-4cf3-410f-ab91-b28c4969f08a/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3%20VEDA%20VFD.pdf",
+      "group": "Брошюры и листовки expand_more",
+      "localPath": "assets/documents/26037b65cb42-Каталог VEDA VFD.pdf",
+      "bytes": 10890035,
+      "sha256": "f0c6a1cb7b6f5137fd9eb31ec29ae54c53ea38e44edc40a7f8debb06879e76c0",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Листовка VEDA VF101 DBC.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/7b58bd18-c8b8-4846-b775-c5256f07ad8e/%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20VEDA%20VF101%20DBC.pdf",
+      "group": "Брошюры и листовки expand_more",
+      "localPath": "assets/documents/591bb457606e-Листовка VEDA VF101 DBC.pdf",
+      "bytes": 317589,
+      "sha256": "323d93f81d678b0b71561ceeb8ed875c794d0810721f2b381152420a9f81d865",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Руководство по монтажу DBC IP54.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/13e48958-0dcc-415e-be9d-634df2d85840/%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%20%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D1%83%20DBC%20IP54.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/7e115373562f-Руководство по монтажу DBC IP54.pdf",
+      "bytes": 1904698,
+      "sha256": "373a13358384d810f224239c2e34626694907bb4b82aaf30b50dcbe5f5adf453",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Чертежи DBC.zip",
+      "sourceUrl": "https://drives.ru/dh-files/11a22d11-6252-46d0-a7fa-1a2deb7dd0da/%D0%A7%D0%B5%D1%80%D1%82%D0%B5%D0%B6%D0%B8%20DBC.zip",
+      "group": "Чертежи expand_more",
+      "localPath": "assets/documents/2753a9e67756-Чертежи DBC.zip",
+      "bytes": 564802,
+      "sha256": "bbf60783d1e6bd1ef444992ed506c08e2375b96b29ca5c5a5fb9d87e996855e2",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "3Д модели DBC.zip",
+      "sourceUrl": "https://drives.ru/dh-files/683070c0-6992-4ed6-9fd4-596bcf25dd8e/3%D0%94%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%20DBC.zip",
+      "group": "3D Модели expand_more",
+      "localPath": "assets/documents/ee54e3f7f548-3Д модели DBC.zip",
+      "bytes": 36916179,
+      "sha256": "73f02e3e144a456dce61f3c2b1c2adacdbbf2a2829d112f5315af8dc7add96d3",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Морской сертификат ПЧ РМРС.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/75f5ef1f-78ed-48ec-9fe2-4903867ed1af/%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%9F%D0%A7%20%D0%A0%D0%9C%D0%A0%D0%A1.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/899d0bbd49e7-Морской сертификат ПЧ РМРС.pdf",
+      "bytes": 177771,
+      "sha256": "10b1bdf9fc9f89ef9ce022192ab7e7f27a988851a3445e9f8de323d7ae3ad554",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Декларация о соответствии ТР ТС 020_2011.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/f5dae083-dc84-4148-899f-e4a8a8b21530/%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BE%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B8%20%D0%A2%D0%A0%20%D0%A2%D0%A1%20020_2011.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/195d4fe15eca-Декларация о соответствии ТР ТС 020_2011.pdf",
+      "bytes": 173719,
+      "sha256": "a834fb5db62aa1886ff3b74eb61a7cc1edc337282f707d6fa761f3ae87ec4c69",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Сертификат соответствия ТР ТС 004_2011.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/b84cd99a-c690-4259-9daa-9d27de25a7a0/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D1%8F%20%D0%A2%D0%A0%20%D0%A2%D0%A1%20004_2011.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/bb04e8ce2cff-Сертификат соответствия ТР ТС 004_2011.pdf",
+      "bytes": 171673,
+      "sha256": "6baf8f62dce84984642a7abc733c3a0aaf70aaef44505eb79329e144e43f8262",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    }
+  ],
+  "sku": "DBC00125",
+  "characteristics": [
+    {
+      "name": "Типовой код",
+      "value": "VF-101-P2K2-0006-U-T4-C54-B-H"
+    },
+    {
+      "name": "Серия",
+      "value": "VF-101 Basic Drive (Базовый привод)"
+    },
+    {
+      "name": "Краткое описание",
+      "value": "VF-101 Basic Drive (Базовый привод) c высокой перегрузкой, 3х380В, шкаф IP54, металлический корпус"
+    },
+    {
+      "name": "Выходная мощность, кВт",
+      "value": "2.2"
+    },
+    {
+      "name": "Входное напряжение, В",
+      "value": "3х400"
+    },
+    {
+      "name": "Выходное напряжение, В",
+      "value": "Трехфазное, 0-100 % входного напряжения, погрешность ±2,5%"
+    },
+    {
+      "name": "Номинальный выходной ток, А",
+      "value": "6"
+    },
+    {
+      "name": "Перегрузочная способность, %",
+      "value": "150"
+    },
+    {
+      "name": "Торм.ключ",
+      "value": "Да"
+    },
+    {
+      "name": "Дроссель шины постоянного тока",
+      "value": "Нет"
+    },
+    {
+      "name": "Количество и тип входов",
+      "value": "5 цифровых входа; 2 аналоговых входа (0-10 В или 0/4-20 мА)"
+    },
+    {
+      "name": "Количество и тип выходов",
+      "value": "1 аналоговый выход (0-10 В или 0/4-20 мА) 1 релейный выход 1; цифровой выход (с открытым коллектором), (импульсный выход)"
+    },
+    {
+      "name": "Канал связи",
+      "value": "Modbus RTU"
+    },
+    {
+      "name": "Панель оператора",
+      "value": "Съемная двухстрочная цифровая"
+    },
+    {
+      "name": "Фильтр ЭМС",
+      "value": "Базовый"
+    },
+    {
+      "name": "Панель оператора",
+      "value": "Съемная двухстрочная цифровая"
+    },
+    {
+      "name": "Степень защиты",
+      "value": "IP54"
+    },
+    {
+      "name": "ВхШхГ, мм",
+      "value": "473,x200x227,5"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/84/12/1284/images/7274/7274.970.png",
+      "alt": "Преобразователь частоты VEDA VFD — DBC00125 — VF-101-P2K2-0006-U-T4-C54-B-H",
+      "localPath": "assets/images/10466c3a1ba5-7274.970.png",
+      "bytes": 219063,
+      "sha256": "6b18be49f51e2004fadf4db5cb101e23d4928b3ecbc70043d1868957d9dbc228",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/84/12/1284/images/7272/7272.970.png",
+      "alt": "Преобразователь частоты VEDA VFD — DBC00125 — VF-101-P2K2-0006-U-T4-C54-B-H",
+      "localPath": "assets/images/602f94aec590-7272.970.png",
+      "bytes": 223015,
+      "sha256": "73521734150fc2d13e4c35855223d13bb898d2110a66361714af3a6c8d0f194b",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/84/12/1284/images/7273/7273.970.png",
+      "alt": "Преобразователь частоты VEDA VFD — DBC00125 — VF-101-P2K2-0006-U-T4-C54-B-H",
+      "localPath": "assets/images/0f22b4a02d48-7273.970.png",
+      "bytes": 208104,
+      "sha256": "dd910d0878d30cce1b261fbdb43c1768634c0260e6afefea65c441f9d94c6fac",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/84/12/1284/images/7275/7275.970.png",
+      "alt": "Преобразователь частоты VEDA VFD — DBC00125 — VF-101-P2K2-0006-U-T4-C54-B-H",
+      "localPath": "assets/images/ff72e05033ec-7275.970.png",
+      "bytes": 632244,
+      "sha256": "b9a058fd57c146e384f0d4063b648a20364cde0a46782bb31e2a7c704c939854",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/84/12/1284/images/7276/7276.970.png",
+      "alt": "Преобразователь частоты VEDA VFD — DBC00125 — VF-101-P2K2-0006-U-T4-C54-B-H",
+      "localPath": "assets/images/cf70e27b96da-7276.970.png",
+      "bytes": 83972,
+      "sha256": "4d03d796a23a6eda7a89c007c497d35462f675c033ac7c019cda008122478447",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/84/12/1284/images/7277/7277.970.png",
+      "alt": "Преобразователь частоты VEDA VFD — DBC00125 — VF-101-P2K2-0006-U-T4-C54-B-H",
+      "localPath": "assets/images/4a0b73da8ae9-7277.970.png",
+      "bytes": 226632,
+      "sha256": "e7aed11dad9d4a5030b07a0b7b93eef2a04f5733c4271005f2631f8f8360bc24",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    }
+  ],
+  "price": {
+    "raw": "69 197,60 ₽",
+    "currency": "RUB",
+    "tax": "без НДС"
+  },
+  "availability": "Артикул: DBC00125Под заказ",
+  "source": {
+    "url": "https://drives.ru/preobrazovatel-chastoty-veda-vfd-dbc00125-vf-101-p2k2-0006-u-t4-c54-b-h/",
+    "rawHtml": "raw/pages/3f538600c254d828437a.html",
+    "sha256": "e9ba160eab79435e3ee8de4f23189105a577f09aa2b55401cfc01b0d62cdcfd0",
+    "collectedAt": "2026-10-16T10:21:39.137Z"
+  },
+  "seriesId": "VF-101-DBC",
+  "categoryPath": [
+    "Низковольтные ПЧ и УПП",
+    "Преобразователи частоты VEDA VFD",
+    "Преобразователь частоты VEDA VFD VF-101 DBC"
+  ],
+  "model": "VF-101-P2K2-0006-U-T4-C54-B-H",
+  "schemaVersion": 1,
+  "warnings": [
+    {
+      "type": "duplicate-characteristic",
+      "name": "Панель оператора",
+      "values": [
+        "Съемная двухстрочная цифровая",
+        "Съемная двухстрочная цифровая"
+      ]
+    }
+  ]
+}

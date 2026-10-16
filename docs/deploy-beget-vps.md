@@ -25,9 +25,9 @@ sudo npm install -g pm2
 Создайте базу и пользователя MySQL:
 
 ```sql
-CREATE DATABASE anneng_shop CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-CREATE USER 'anneng_user'@'localhost' IDENTIFIED BY 'strong_password';
-GRANT ALL PRIVILEGES ON anneng_shop.* TO 'anneng_user'@'localhost';
+CREATE DATABASE veda_shop CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE USER 'veda_user'@'localhost' IDENTIFIED BY 'strong_password';
+GRANT ALL PRIVILEGES ON veda_shop.* TO 'veda_user'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
@@ -36,7 +36,7 @@ FLUSH PRIVILEGES;
 На сервере создайте `.env` в корне проекта:
 
 ```env
-DATABASE_URL="mysql://anneng_user:strong_password@127.0.0.1:3306/anneng_shop"
+DATABASE_URL="mysql://veda_user:strong_password@127.0.0.1:3306/veda_shop"
 AUTH_SECRET="replace-with-a-long-random-secret"
 AUTH_TRUST_HOST="true"
 NEXT_PUBLIC_ADMIN_PUBLIC_PATH="/control-7f3a9c1e"
@@ -60,8 +60,8 @@ openssl rand -base64 32
 ## Деплой приложения
 
 ```bash
-git clone <repo-url> /var/www/anneng-shop
-cd /var/www/anneng-shop
+git clone <repo-url> /var/www/veda-shop
+cd /var/www/veda-shop
 npm ci
 npm run deploy:build
 npm run prisma:seed
@@ -73,11 +73,11 @@ pm2 startup
 При следующих обновлениях:
 
 ```bash
-cd /var/www/anneng-shop
+cd /var/www/veda-shop
 git pull
 npm ci
 npm run deploy:build
-pm2 reload anneng-shop
+pm2 reload veda-shop
 ```
 
 `npm run deploy:build` применяет Prisma migrations через `prisma migrate deploy`, затем выполняет `next build`.
@@ -89,7 +89,7 @@ pm2 reload anneng-shop
 ```nginx
 server {
     listen 80;
-    server_name shinoprovod-anneng.ru www.shinoprovod-anneng.ru 85.198.99.82;
+    server_name drives-vfd.ru www.drives-vfd.ru 85.198.99.82;
 
     client_max_body_size 32m;
 
@@ -124,7 +124,7 @@ sudo certbot --nginx -d example.ru -d www.example.ru
 
 ```bash
 pm2 status
-pm2 logs anneng-shop --lines 100
+pm2 logs veda-shop --lines 100
 curl -I http://127.0.0.1:3000
 curl http://127.0.0.1:3000/api/health/db
 ```

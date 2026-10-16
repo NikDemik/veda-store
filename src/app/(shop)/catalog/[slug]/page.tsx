@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Pick<CatalogCategoryRouteProp
 
     return createPageMetadata(
         category.name,
-        category.description || `Каталог продукции Anneng в категории ${category.name}.`,
+        category.description || `Каталог продукции VEDA VFD в категории ${category.name}.`,
     );
 }
 

@@ -16,11 +16,6 @@ export default function ContactsLine() {
                 </p>
 
                 <div className="flex w-full flex-col gap-2 sm:gap-5 sm:flex-row md:w-auto">
-                    <Button asChild className="sm:w-auto">
-                        <Link href="/pdf/anneng.pdf" download>
-                            Скачать каталог
-                        </Link>
-                    </Button>
                     <Button
                         asChild
                         variant="outline"

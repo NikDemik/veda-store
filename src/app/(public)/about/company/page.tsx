@@ -3,7 +3,7 @@ import { createPageMetadata } from '@/lib/metadata';
 
 export const metadata = createPageMetadata(
     'О компании',
-    'Информация о компании Anneng, продукции и подходе к B2B-поставкам.',
+    'Информация о компании VEDA VFD, продукции и подходе к B2B-поставкам.',
 );
 
 export default function CompanyPage() {

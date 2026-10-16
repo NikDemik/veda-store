@@ -1,0 +1,170 @@
+{
+  "title": "Плата расширения энкодера 12 В для преобразователя частоты VEDA VFD — PBC00006",
+  "description": "ОписаниеПлата расширения энкодера предназначена для подключения инкрементальных энкодеров с различными типами подключения к преобразователям частоты VF-101. Энкодерная опция представлена в виде двух плат: PBC00005 и PBC00006. Платы отличаются питающим напряжением, PBC00005 – 5 В, PBC00006 – 12 В. Данные платы поддерживают следующие типы подключений: – с дифференциальным выходом; – с открытым коллектором; – HTL; – TTL. Выбор платы осуществляется в зависимости от требуемого напряжения питания энкодера. • Установка в слот В",
+  "descriptionHtml": "<div class=\"in-blocks__title\"><div class=\"in-blocks__title-name\">Описание</div></div><div class=\"page\"><div class=\"desc\"><p>Плата расширения энкодера предназначена для подключения инкрементальных энкодеров с различными типами подключения к <a href=\"https://drives.ru/category/veda/preobrazovateli-chastoty-veda-vfd/vf-101-basic-drive/\" target=\"_blank\">преобразователям частоты VF-101</a>. Энкодерная опция представлена в виде двух плат: PBC00005 и PBC00006. Платы отличаются питающим напряжением, PBC00005 – 5 В, PBC00006 – 12 В. Данные платы поддерживают следующие типы подключений: </p>\n\n<p>– с дифференциальным выходом; </p>\n\n<p>– с открытым коллектором; </p>\n\n<p>– HTL; </p>\n\n<p>– TTL. </p>\n\n<p>Выбор платы осуществляется в зависимости от требуемого напряжения питания энкодера.</p>\n\n<p>• Установка в слот В</p></div></div>",
+  "documents": [
+    {
+      "title": "Лифлет VEDA VFD VF-302L Lift Drive.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/a67851e7-dadb-4185-8be8-9c8c8c63dbc9/%D0%9B%D0%B8%D1%84%D0%BB%D0%B5%D1%82%20VEDA%20VFD%20VF-302L%20Lift%20Drive.pdf",
+      "group": "Брошюры и листовкиexpand_more",
+      "localPath": "assets/documents/359b57b071e1-Лифлет VEDA VFD VF-302L Lift Drive.pdf",
+      "bytes": 235559,
+      "sha256": "c94183384a02dc0e86459f8383c7261d9748f87f7744f2abb490c1649b8f8225",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z",
+      "inheritedFrom": "https://drives.ru/category/veda/preobrazovateli-chastoty-veda-vfd/vfd-vf-302l-lift-drive/"
+    },
+    {
+      "title": "Технические данные VEDA VFD VF-302L Lift Drive.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/fc0bbbc2-334a-4665-b442-ba1e052642b2/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20VEDA%20VFD%20VF-302L%20Lift%20Drive.pdf",
+      "group": "Инструкцииexpand_more",
+      "localPath": "assets/documents/878d2771127d-Технические данные VEDA VFD VF-302L Lift Drive.pdf",
+      "bytes": 1137933,
+      "sha256": "d828152e3d51c0c3eaaadfed74692154fa7408d89e7b8b34c041f346365958c0",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z",
+      "inheritedFrom": "https://drives.ru/category/veda/preobrazovateli-chastoty-veda-vfd/vfd-vf-302l-lift-drive/"
+    },
+    {
+      "title": "Чертежи VF-302L LiftDrive.zip",
+      "sourceUrl": "https://drives.ru/dh-files/63e4c369-bb74-4979-afd2-d8a3d41a6a20/%D0%A7%D0%B5%D1%80%D1%82%D0%B5%D0%B6%D0%B8%20VF-302L%20LiftDrive.zip",
+      "group": "Чертежиexpand_more",
+      "localPath": "assets/documents/3930836d9132-Чертежи VF-302L LiftDrive.zip",
+      "bytes": 869550,
+      "sha256": "a807bfe9302fd035cfe7f5b18dc107ad440e3a963b6b2847a1dabc885b600048",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z",
+      "inheritedFrom": "https://drives.ru/category/veda/preobrazovateli-chastoty-veda-vfd/vfd-vf-302l-lift-drive/"
+    },
+    {
+      "title": "Морской сертификат ПЧ РМРС.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/75f5ef1f-78ed-48ec-9fe2-4903867ed1af/%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%9F%D0%A7%20%D0%A0%D0%9C%D0%A0%D0%A1.pdf",
+      "group": "Сертификатыexpand_more",
+      "localPath": "assets/documents/899d0bbd49e7-Морской сертификат ПЧ РМРС.pdf",
+      "bytes": 177771,
+      "sha256": "10b1bdf9fc9f89ef9ce022192ab7e7f27a988851a3445e9f8de323d7ae3ad554",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z",
+      "inheritedFrom": "https://drives.ru/category/veda/preobrazovateli-chastoty-veda-vfd/vfd-vf-302l-lift-drive/"
+    },
+    {
+      "title": "Декларация о соответствии ТР ТС 020_2011.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/f5dae083-dc84-4148-899f-e4a8a8b21530/%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BE%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B8%20%D0%A2%D0%A0%20%D0%A2%D0%A1%20020_2011.pdf",
+      "group": "Сертификатыexpand_more",
+      "localPath": "assets/documents/195d4fe15eca-Декларация о соответствии ТР ТС 020_2011.pdf",
+      "bytes": 173719,
+      "sha256": "a834fb5db62aa1886ff3b74eb61a7cc1edc337282f707d6fa761f3ae87ec4c69",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z",
+      "inheritedFrom": "https://drives.ru/category/veda/preobrazovateli-chastoty-veda-vfd/vfd-vf-302l-lift-drive/"
+    },
+    {
+      "title": "Сертификат соответствия ТР ТС 004_2011.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/b84cd99a-c690-4259-9daa-9d27de25a7a0/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D1%8F%20%D0%A2%D0%A0%20%D0%A2%D0%A1%20004_2011.pdf",
+      "group": "Сертификатыexpand_more",
+      "localPath": "assets/documents/bb04e8ce2cff-Сертификат соответствия ТР ТС 004_2011.pdf",
+      "bytes": 171673,
+      "sha256": "6baf8f62dce84984642a7abc733c3a0aaf70aaef44505eb79329e144e43f8262",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z",
+      "inheritedFrom": "https://drives.ru/category/veda/preobrazovateli-chastoty-veda-vfd/vfd-vf-302l-lift-drive/"
+    },
+    {
+      "title": "Карта Энкодер PBC00006.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/c8e2a4d9-72de-4bdf-a701-f0c613fea311/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%AD%D0%BD%D0%BA%D0%BE%D0%B4%D0%B5%D1%80%20PBC00006.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/d48eefc95827-Карта Энкодер PBC00006.pdf",
+      "bytes": 1318585,
+      "sha256": "1d7fe155750dff2dffa5dbd7ce1d5fbf22db8f94558b2390d1390628c8b9044a",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    }
+  ],
+  "sku": "PBC00006",
+  "characteristics": [
+    {
+      "name": "ВхШхГ, мм",
+      "value": "40x80x140"
+    },
+    {
+      "name": "Масса, кг",
+      "value": "0,075"
+    },
+    {
+      "name": "Сетевой интерфейс",
+      "value": "нет"
+    },
+    {
+      "name": "Входы-выходы",
+      "value": "нет"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/56/16/1656/images/6092/6092.970.png",
+      "alt": "Плата расширения энкодера 12 В для преобразователя частоты VEDA VFD — PBC00006",
+      "localPath": "assets/images/ae460a9ca993-6092.970.png",
+      "bytes": 415173,
+      "sha256": "5f8f2144ca7065da5f72d284cc0569f6dcac5e6b3c7d2c08c2f7a67ed33607f2",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/56/16/1656/images/6093/6093.970.png",
+      "alt": "Плата расширения энкодера 12 В для преобразователя частоты VEDA VFD — PBC00006",
+      "localPath": "assets/images/a9e0a9ac6ed9-6093.970.png",
+      "bytes": 304659,
+      "sha256": "d53062de126ca06c0084719da4edbee35fec2042e36be1f8062912b73a457cdc",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/56/16/1656/images/6094/6094.970.png",
+      "alt": "Плата расширения энкодера 12 В для преобразователя частоты VEDA VFD — PBC00006",
+      "localPath": "assets/images/97f44d99a5ba-6094.970.png",
+      "bytes": 322308,
+      "sha256": "529a00a89d9331cf8d4a00bd05541bf08f4cba4a8ff5995e5c2de9059a40ca1d",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/56/16/1656/images/6095/6095.970.png",
+      "alt": "Плата расширения энкодера 12 В для преобразователя частоты VEDA VFD — PBC00006",
+      "localPath": "assets/images/746dd8db0061-6095.970.png",
+      "bytes": 432800,
+      "sha256": "7902fc62d11ee100435e22857bc503070a2475374e00652a0403d5445a4e3e4d",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/56/16/1656/images/6096/6096.970.png",
+      "alt": "Плата расширения энкодера 12 В для преобразователя частоты VEDA VFD — PBC00006",
+      "localPath": "assets/images/8ec04c5a320c-6096.970.png",
+      "bytes": 428401,
+      "sha256": "b0a87b80291a3f7afa49eb0024be91a0886478d4ccc52aca520120293846673a",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    }
+  ],
+  "price": {
+    "raw": "13 882,40 ₽",
+    "currency": "RUB",
+    "tax": "без НДС"
+  },
+  "availability": "Артикул: PBC00006Под заказ",
+  "source": {
+    "url": "https://drives.ru/1656/",
+    "rawHtml": "raw/pages/53397aefd77f4455f06c.html",
+    "sha256": "f4b8ed7227fef8ff94e6e1b0053f92a33959a1ab3b5bd10ae752d7e6f6cb2331",
+    "collectedAt": "2026-10-16T10:21:39.137Z"
+  },
+  "seriesId": "VF-302L",
+  "categoryPath": [
+    "Низковольтные ПЧ и УПП",
+    "Преобразователи частоты VEDA VFD",
+    "Преобразователи частоты VEDA VFD серии VF-302L Lift Drive (Лифтовый привод)"
+  ],
+  "model": null,
+  "schemaVersion": 1,
+  "warnings": []
+}

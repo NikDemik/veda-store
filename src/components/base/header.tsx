@@ -2,7 +2,6 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Mail, Phone, Clock, Search, ShoppingCart, Menu, X, ChevronDown } from 'lucide-react';
 import contactData from '@/data/contactData';
@@ -110,24 +109,6 @@ export default function Header() {
                             <span className="text-sm text-muted-foreground">
                                 поставщик преобразователей VEDA
                             </span>
-                            {/* <Image
-                                src={'/logo/logo-anneng-black.svg'}
-                                width={230}
-                                height={50}
-                                quality={100}
-                                alt="Логотип"
-                                loading="eager"
-                                className="dark:hidden"
-                            />
-                            <Image
-                                src={'/logo/logo-anneng-white.png'}
-                                width={230}
-                                height={50}
-                                quality={100}
-                                alt="Логотип"
-                                loading="eager"
-                                className="hidden dark:block"
-                            /> */}
                         </Link>
                         {/* NAVIGATION */}
                         <nav

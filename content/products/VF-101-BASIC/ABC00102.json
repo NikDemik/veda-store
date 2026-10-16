@@ -1,0 +1,401 @@
+{
+  "title": "Преобразователь частоты VEDA VFD VF-101 Basic Drive (Базовый привод) c высокой перегрузкой— ABC00102 — VF-101-P1K5-0007-U-S2-E20-B-H",
+  "description": "ОписаниеПреобразователь частоты VEDA VFD VF-101 Basic Drive (Базовый привод) с высокой перегрузкой — ABC00102 — VF-101-P1K5-0007-U-S2-E20-B-H. Специализированный преобразователь частоты совместим с различными сетевыми протоколами. Данная серия имеет специальные насосные и вентиляторные функции. Подходит для применения с насосами, вентиляторами, системами пожаротушения.Входное напряжение 1*220В.Максимальная выходная мощность 1,5 кВт. Тепловые потери 45 Вт.Номинальный ток 7A. Перегрузочная способность высокая: 150% — 89 с, 180% — 10 с, 200% — 3 с. Класс защиты IP20. Встроенный тормозной прерыватель.Преобразователь частоты имеет базовый класс ЭМС. Без дросселя.",
+  "descriptionHtml": "<div class=\"in-blocks__title\"><div class=\"in-blocks__title-name\">Описание</div></div><div class=\"page\"><div class=\"desc\"><p><strong>Преобразователь частоты VEDA VFD VF-101 Basic Drive (Базовый привод) с высокой перегрузкой — ABC00102 — VF-101-P1K5-0007-U-S2-E20-B-H.</strong><br><br> Специализированный преобразователь частоты совместим с различными сетевыми протоколами. Данная серия имеет специальные насосные и вентиляторные функции. Подходит для применения с насосами, вентиляторами, системами пожаротушения.<br><br>Входное напряжение 1*220В.Максимальная выходная мощность 1,5 кВт. Тепловые потери 45 Вт.<br>Номинальный ток 7A. Перегрузочная способность высокая: 150% — 89 с, 180% — 10 с, 200% — 3 с. Класс защиты IP20. Встроенный тормозной прерыватель.<br>Преобразователь частоты имеет базовый класс ЭМС. Без дросселя.</p></div></div>",
+  "documents": [
+    {
+      "title": "Листовка VF-101.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/b97119ac-f431-4027-919f-0c6225de5cd3/%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20VF-101.pdf",
+      "group": "Брошюры и листовки expand_more",
+      "localPath": "assets/documents/ebca22490968-Листовка VF-101.pdf",
+      "bytes": 345831,
+      "sha256": "c4397d12e30a45d37aaed33cfdd94165733e10f49446d3f77731c098e42cf665",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Каталог VEDA VFD.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/fe624328-6fff-4c5b-b0c0-853c2aafc1af/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3%20VEDA%20VFD.pdf",
+      "group": "Брошюры и листовки expand_more",
+      "localPath": "assets/documents/30fe90cb1f01-Каталог VEDA VFD.pdf",
+      "bytes": 10890035,
+      "sha256": "f0c6a1cb7b6f5137fd9eb31ec29ae54c53ea38e44edc40a7f8debb06879e76c0",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Ввод в эксплуатацию VF-101.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/bd5f364f-1142-4959-aa13-1e1346c7accb/%D0%92%D0%B2%D0%BE%D0%B4%20%D0%B2%20%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D0%B0%D1%86%D0%B8%D1%8E%20VF-101.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/04e57d4c3f62-Ввод в эксплуатацию VF-101.pdf",
+      "bytes": 2590952,
+      "sha256": "475f27bb3f3e8cb6356f0ec2e9ebc82aed5a2d568db433ef81c76574a383cf76",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Краткая инструкция по эксплуатации VF-101.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/7230b331-333e-41d5-a00a-a196da511a76/%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F%20%D0%BF%D0%BE%20%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D0%B0%D1%86%D0%B8%D0%B8%20VF-101.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/61f75f6bcde7-Краткая инструкция по эксплуатации VF-101.pdf",
+      "bytes": 3713261,
+      "sha256": "ca8b1b5ab4e3060b9f218d029751fc608da1a16fb62e828760cfd8dd9ce1d0b8",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Силовые клеммы и инструкции по электромонтажу VF-101.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/771b84d6-74d6-445a-bbe3-6385dbfd8696/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%BB%D0%B5%D0%BC%D0%BC%D1%8B%20%D0%B8%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8%20%D0%BF%D0%BE%20%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D1%83%20VF-101.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/affbeb4036b6-Силовые клеммы и инструкции по электромонтажу VF-101.pdf",
+      "bytes": 2573811,
+      "sha256": "bb2682ce448a9b48c4cd4f4ff591f802ed1fc03387f4b939026006fd48a9d8f2",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Приложение к инструкции по эксплуатации VF-101 функция STO.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/253d9f41-54b0-447d-b5ec-06aa94315a81/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8%20%D0%BF%D0%BE%20%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D0%B0%D1%86%D0%B8%D0%B8%20VF-101%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F%20STO.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/69ce62ac542a-Приложение к инструкции по эксплуатации VF-101 функция STO.pdf",
+      "bytes": 431176,
+      "sha256": "006cf100aa843bbb5b7ec5631554681fc453314922f4d83d31ee06f7e80775c7",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Руководство по эксплуатации VF-101 Fire Mode Drive.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/9c800c69-627c-4860-87f7-ac10042918d7/%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%20%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D0%B0%D1%86%D0%B8%D0%B8%20VF-101%20Fire%20Mode%20Drive.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/0c9f7ce3b938-Руководство по эксплуатации VF-101 Fire Mode Drive.pdf",
+      "bytes": 507320,
+      "sha256": "cef5eb492dc221eb1d8b81ab25902118cc2e1d5902f6d33b5ac7caabbd688a86",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Руководство по эксплуатации VEDAVFD VF-101.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/d921ae4a-28bf-483b-a46b-38ccd327ef70/%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%20%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D0%B0%D1%86%D0%B8%D0%B8%20VEDAVFD%20VF-101.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/849fe2abbf51-Руководство по эксплуатации VEDAVFD VF-101.pdf",
+      "bytes": 13690988,
+      "sha256": "ce58ec2ab8d83d9ffabfdd97e74de359d1963b773e16f6ad89d1e29275e6be16",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Чертеж панели PBC00010.zip",
+      "sourceUrl": "https://drives.ru/dh-files/50886c5c-2a21-407f-892c-9337b2ee1aa2/%D0%A7%D0%B5%D1%80%D1%82%D0%B5%D0%B6%20%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D0%B8%20PBC00010.zip",
+      "group": "Чертежи expand_more",
+      "localPath": "assets/documents/649c879a8c6a-Чертеж панели PBC00010.zip",
+      "bytes": 157811,
+      "sha256": "3012aa622f30a4b03684c4b7d811037e282b842997ec5a76af3e219a04dcf05c",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Чертежи панели PBC00001.zip",
+      "sourceUrl": "https://drives.ru/dh-files/4f2cb606-abb4-4e9f-a46c-160bc4a02011/%D0%A7%D0%B5%D1%80%D1%82%D0%B5%D0%B6%D0%B8%20%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D0%B8%20PBC00001.zip",
+      "group": "Чертежи expand_more",
+      "localPath": "assets/documents/7471eb89d18a-Чертежи панели PBC00001.zip",
+      "bytes": 346310,
+      "sha256": "5e97312198e2574e014c31b6fb4b1e888ffae269b543aa0e79d3234854e9b425",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Чертежи VF-101.zip",
+      "sourceUrl": "https://drives.ru/dh-files/9eec8f54-83cb-4eb7-91e1-89660b4692ad/%D0%A7%D0%B5%D1%80%D1%82%D0%B5%D0%B6%D0%B8%20VF-101.zip",
+      "group": "Чертежи expand_more",
+      "localPath": "assets/documents/5a2f170ddf1d-Чертежи VF-101.zip",
+      "bytes": 9508047,
+      "sha256": "72f67cbb4088c031fa21e762b037e415fc33eac1ca1932aeb1fd973e348561c7",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Чертеж PBC00011.zip",
+      "sourceUrl": "https://drives.ru/dh-files/5e6c3144-c6eb-4938-a386-0a6c9ff3f79c/%D0%A7%D0%B5%D1%80%D1%82%D0%B5%D0%B6%20PBC00011.zip",
+      "group": "Чертежи expand_more",
+      "localPath": "assets/documents/03bb2cfc9820-Чертеж PBC00011.zip",
+      "bytes": 4569663,
+      "sha256": "c86dccb93923758acaf50640253b513cf561d2ddac57d25711c45161bd9eb064",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Клеммы управления VF-101.zip",
+      "sourceUrl": "https://drives.ru/dh-files/ac0cbfdd-afd9-4c0f-9ecd-1932845d9b89/%D0%9A%D0%BB%D0%B5%D0%BC%D0%BC%D1%8B%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20VF-101.zip",
+      "group": "Чертежи expand_more",
+      "localPath": "assets/documents/ead72cbc7405-Клеммы управления VF-101.zip",
+      "bytes": 681255,
+      "sha256": "6970fd800ba4e9fab2896d7e1be8f025dc15d07afa53882a6b65a5ea574d1990",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "BIM-модели на ПЧ VF-101.rar",
+      "sourceUrl": "https://drives.ru/dh-files/e7386070-133b-4b6f-b007-db90bbb4149b/BIM-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%20%D0%BD%D0%B0%20%D0%9F%D0%A7%20VF-101.rar",
+      "group": "3D Модели expand_more",
+      "localPath": "assets/documents/cd705b66c9f7-BIM-модели на ПЧ VF-101.rar",
+      "bytes": 10929454,
+      "sha256": "371a6f01316377f9169b114a0c57ec17420f0b1d634d10a9d668d8f52becad63",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "3D модели VF-101.zip",
+      "sourceUrl": "https://drives.ru/dh-files/19a865ab-1488-4dd3-995f-33a48eaed738/3D%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%20VF-101.zip",
+      "group": "3D Модели expand_more",
+      "localPath": "assets/documents/0538a5e93ad6-3D модели VF-101.zip",
+      "bytes": 76646403,
+      "sha256": "26d6ca856aca99f6b9d8cedc11629bfc1d89488431d8d499de8e52f8a9061617",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "3D модель PBC00011.zip",
+      "sourceUrl": "https://drives.ru/dh-files/d9fe03bb-80b4-4cb1-8858-79bd6f39074a/3D%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%20PBC00011.zip",
+      "group": "3D Модели expand_more",
+      "localPath": "assets/documents/2637077e3e2b-3D модель PBC00011.zip",
+      "bytes": 1390678,
+      "sha256": "43c0ae1e37048884cd92e40720cb5d3fe9a5fc242baaaf4a0fe63ca066ac8607",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Морской сертификат ПЧ РМРС.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/75f5ef1f-78ed-48ec-9fe2-4903867ed1af/%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%9F%D0%A7%20%D0%A0%D0%9C%D0%A0%D0%A1.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/899d0bbd49e7-Морской сертификат ПЧ РМРС.pdf",
+      "bytes": 177771,
+      "sha256": "10b1bdf9fc9f89ef9ce022192ab7e7f27a988851a3445e9f8de323d7ae3ad554",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Декларация о соответствии ТР ТС 020_2011.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/f5dae083-dc84-4148-899f-e4a8a8b21530/%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BE%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B8%20%D0%A2%D0%A0%20%D0%A2%D0%A1%20020_2011.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/195d4fe15eca-Декларация о соответствии ТР ТС 020_2011.pdf",
+      "bytes": 173719,
+      "sha256": "a834fb5db62aa1886ff3b74eb61a7cc1edc337282f707d6fa761f3ae87ec4c69",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Сертификат соответствия ТР ТС 004_2011.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/b84cd99a-c690-4259-9daa-9d27de25a7a0/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D1%8F%20%D0%A2%D0%A0%20%D0%A2%D0%A1%20004_2011.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/bb04e8ce2cff-Сертификат соответствия ТР ТС 004_2011.pdf",
+      "bytes": 171673,
+      "sha256": "6baf8f62dce84984642a7abc733c3a0aaf70aaef44505eb79329e144e43f8262",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Сертификат по климатике для атомных станций.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/e94306a4-c9e2-4e78-90b6-7f13b7552f27/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%BF%D0%BE%20%D0%BA%D0%BB%D0%B8%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%B0%D1%82%D0%BE%D0%BC%D0%BD%D1%8B%D1%85%20%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B9.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/440e352b4827-Сертификат по климатике для атомных станций.pdf",
+      "bytes": 544978,
+      "sha256": "8d75534178ff6d3e8272a4350c44c7e01346e45bdcdb86bd779267e0a65f05e2",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Сертификат по сейсмостойкости для атомных станций.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/43f44b64-56fb-4604-a74e-f06fe45d6ed3/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%BF%D0%BE%20%D1%81%D0%B5%D0%B9%D1%81%D0%BC%D0%BE%D1%81%D1%82%D0%BE%D0%B9%D0%BA%D0%BE%D1%81%D1%82%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%B0%D1%82%D0%BE%D0%BC%D0%BD%D1%8B%D1%85%20%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B9.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/87d741c0d97e-Сертификат по сейсмостойкости для атомных станций.pdf",
+      "bytes": 560957,
+      "sha256": "e6d82e9117608af15de6512770085dc7ddb97cb8ea5a195db8891896f64716a4",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Сертификат ЭМС для атомных станций.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/101be522-1680-4bd2-9928-cd30702e950e/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%AD%D0%9C%D0%A1%20%D0%B4%D0%BB%D1%8F%20%D0%B0%D1%82%D0%BE%D0%BC%D0%BD%D1%8B%D1%85%20%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B9.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/b98c34a716bd-Сертификат ЭМС для атомных станций.pdf",
+      "bytes": 432983,
+      "sha256": "03954fef1119094c0af3e423108d50cac246ca4e6c180b359e5bf14b9d9cac4f",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Файл конфигурации CAN для VF-101.zip",
+      "sourceUrl": "https://drives.ru/dh-files/732d4406-a169-4930-a844-e331b83f1e04/%D0%A4%D0%B0%D0%B9%D0%BB%20%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8%20CAN%20%D0%B4%D0%BB%D1%8F%20VF-101.zip",
+      "group": "Файлы конфигураций expand_more",
+      "localPath": "assets/documents/9829e1422488-Файл конфигурации CAN для VF-101.zip",
+      "bytes": 18183,
+      "sha256": "b2d730d8fc24af3fc59d1f3a088da277a54a071d5a456f17d1bb3c3644596b42",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Файл конфигурации EtherCAT.zip",
+      "sourceUrl": "https://drives.ru/dh-files/237c35ac-ed2f-47d3-84cf-17517dc41bf1/%D0%A4%D0%B0%D0%B9%D0%BB%20%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8%20EtherCAT.zip",
+      "group": "Файлы конфигураций expand_more",
+      "localPath": "assets/documents/ddd3fd404da4-Файл конфигурации EtherCAT.zip",
+      "bytes": 48956,
+      "sha256": "28e2b17a1099f4e4ad76542266f38253c9056248c30796bb5503c2b01eb93390",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Файл конфигурации Profibus для VEDA VFD.zip",
+      "sourceUrl": "https://drives.ru/dh-files/5bc7aac6-0165-46d9-b02d-cc358594b80c/%D0%A4%D0%B0%D0%B9%D0%BB%20%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8%20Profibus%20%D0%B4%D0%BB%D1%8F%20VEDA%20VFD.zip",
+      "group": "Файлы конфигураций expand_more",
+      "localPath": "assets/documents/831d6a4b3b6c-Файл конфигурации Profibus для VEDA VFD.zip",
+      "bytes": 1045,
+      "sha256": "669b1deaf27789e53a2b20b99a07d953a6e539fd1dc95310bb5120e76d7b7afc",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Файл конфигурации Profinet VEDA VFD для S-1200 и S-1500.zip",
+      "sourceUrl": "https://drives.ru/dh-files/e9da0926-b42b-4faf-a157-60ee9c5d3f81/%D0%A4%D0%B0%D0%B9%D0%BB%20%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8%20Profinet%20VEDA%20VFD%20%D0%B4%D0%BB%D1%8F%20S-1200%20%D0%B8%20S-1500.zip",
+      "group": "Файлы конфигураций expand_more",
+      "localPath": "assets/documents/e9e2249d7275-Файл конфигурации Profinet VEDA VFD для S-1200 и S-1500.zip",
+      "bytes": 13387,
+      "sha256": "d73627ec2bd0696f63a89817ea550b5df7b06e7196bc9a27bf9f1e10d420d8f3",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "Файл конфигурации Profinet VEDA VFD для S-300 и S-400.zip",
+      "sourceUrl": "https://drives.ru/dh-files/af78b1e2-ee1f-4aca-944b-304d77d985f4/%D0%A4%D0%B0%D0%B9%D0%BB%20%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8%20Profinet%20VEDA%20VFD%20%D0%B4%D0%BB%D1%8F%20S-300%20%D0%B8%20S-400.zip",
+      "group": "Файлы конфигураций expand_more",
+      "localPath": "assets/documents/575ff632fd8c-Файл конфигурации Profinet VEDA VFD для S-300 и S-400.zip",
+      "bytes": 10582,
+      "sha256": "d6da459da04cb7fcfea233e9ec2c5dfe0cfccc91b96b4a13fd990532ee690ea6",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    }
+  ],
+  "sku": "ABC00102",
+  "characteristics": [
+    {
+      "name": "Типовой код",
+      "value": "VF-101-P1K5-0007-U-S2-E20-B-H"
+    },
+    {
+      "name": "Серия",
+      "value": "VF-101 Basic Drive"
+    },
+    {
+      "name": "Краткое описание",
+      "value": "VF-101 Basic Drive (Базовый привод) c высокой перегрузкой, 1х220В"
+    },
+    {
+      "name": "Выходная мощность, кВт",
+      "value": "1.5"
+    },
+    {
+      "name": "Входное напряжение, В",
+      "value": "1х230"
+    },
+    {
+      "name": "Выходное напряжение, В",
+      "value": "Трехфазное, 0-100 % входного напряжения, погрешность ±2,5%"
+    },
+    {
+      "name": "Номинальный выходной ток, А",
+      "value": "7"
+    },
+    {
+      "name": "Перегрузочная способность, %",
+      "value": "150"
+    },
+    {
+      "name": "Торм.ключ",
+      "value": "Да"
+    },
+    {
+      "name": "Дроссель шины постоянного тока",
+      "value": "Нет"
+    },
+    {
+      "name": "Количество и тип входов",
+      "value": "5 цифровых входа; 2 аналоговых входа (0-10 В или 0/4-20 мА)"
+    },
+    {
+      "name": "Количество и тип выходов",
+      "value": "1 аналоговый выход (0-10 В или 0/4-20 мА) 1 релейный выход 1; цифровой выход (с открытым коллектором), (импульсный выход)"
+    },
+    {
+      "name": "Канал связи",
+      "value": "Modbus RTU"
+    },
+    {
+      "name": "Панель оператора",
+      "value": "Цифровая"
+    },
+    {
+      "name": "Фильтр ЭМС",
+      "value": "Базовый"
+    },
+    {
+      "name": "Тепловые потери, Вт",
+      "value": "45"
+    },
+    {
+      "name": "Панель оператора",
+      "value": "Цифровая"
+    },
+    {
+      "name": "Степень защиты",
+      "value": "IP20"
+    },
+    {
+      "name": "ВхШхГ, мм",
+      "value": "204х80х155"
+    },
+    {
+      "name": "Масса, кг",
+      "value": "1,3"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/54/11/1154/images/938/938.970.png",
+      "alt": "Преобразователь частоты VEDA VFD VF-101 Basic Drive (Базовый привод) c высокой перегрузкой— ABC00102 — VF-101-P1K5-0007-U-S2-E20-B-H",
+      "localPath": "assets/images/94fb5f9ce5c7-938.970.png",
+      "bytes": 42244,
+      "sha256": "084eda81a776f24fce0b4e270024e8ff8f79b1aded3c4d0c82aa1680ecfb1e47",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    }
+  ],
+  "price": {
+    "raw": "54 149,40 ₽",
+    "currency": "RUB",
+    "tax": "без НДС"
+  },
+  "availability": "Артикул: ABC00102Под заказ",
+  "source": {
+    "url": "https://drives.ru/preobrazovatel-chastoty-veda-vfd-vf-101-abc00102/",
+    "rawHtml": "raw/pages/cb8d9d7765c8d9ec5aa4.html",
+    "sha256": "7bd7681d3dbf80f0ac04e4fa37d0763bc2f4604be57a6d7bd8a01534a442a918",
+    "collectedAt": "2026-10-16T10:21:39.137Z"
+  },
+  "seriesId": "VF-101-BASIC",
+  "categoryPath": [
+    "Низковольтные ПЧ и УПП",
+    "Преобразователи частоты VEDA VFD",
+    "Специализированный преобразователь частоты VEDA VFD серии VF-101 Basic Drive (Базовый привод)"
+  ],
+  "model": "VF-101-P1K5-0007-U-S2-E20-B-H",
+  "schemaVersion": 1,
+  "warnings": [
+    {
+      "type": "duplicate-characteristic",
+      "name": "Панель оператора",
+      "values": [
+        "Цифровая",
+        "Цифровая"
+      ]
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 
-export const siteName = 'Anneng';
+export const siteName = 'VEDA VFD';
 
 export const defaultDescription =
-    'B2B-каталог продукции Anneng: товары, технические характеристики, документация и оформление заказа.';
+    'B2B-каталог продукции VEDA VFD: товары, технические характеристики, документация и оформление заказа.';
 
 export function createPageMetadata(title: string, description = defaultDescription): Metadata {
     return {

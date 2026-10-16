@@ -6,6 +6,11 @@ function getRemoteImagePatterns() {
             protocol: 'https',
             hostname: 'storage.yandexcloud.net',
         },
+        {
+            protocol: 'https',
+            hostname: 'drives.ru',
+            pathname: '/wa-data/public/shop/**',
+        },
     ];
 
     const publicBaseUrl = process.env.YANDEX_STORAGE_PUBLIC_BASE_URL;

@@ -1,5 +1,5 @@
 export const COOKIE_CONSENT_VERSION = '1.0';
-export const COOKIE_CONSENT_STORAGE_KEY = 'anneng_cookie_consent';
+export const COOKIE_CONSENT_STORAGE_KEY = 'veda_cookie_consent';
 
 export const cookieCategories = [
     {

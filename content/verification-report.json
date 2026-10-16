@@ -1,0 +1,42 @@
+{
+  "verifiedAt": "2026-10-16T13:52:34.128Z",
+  "products": 929,
+  "characteristics": 16284,
+  "uniqueAssets": 2974,
+  "series": {
+    "VF-101-STO": 92,
+    "VF-101-HBC": 191,
+    "VF-101-DBC": 74,
+    "VF-101-FIREMODE": 27,
+    "VF-101-AQUA": 24,
+    "VF-500": 211,
+    "VF-11": 10,
+    "VF-101-BASIC": 155,
+    "VF-51": 13,
+    "VF-302L": 14,
+    "VF-302C": 30,
+    "VF-101-RPD": 12,
+    "VF-400": 86
+  },
+  "checks": [
+    "All discovered products collected",
+    "All characteristic rows match saved source HTML",
+    "All gallery images and permitted product documents included",
+    "VEDA CST excluded from catalog data",
+    "Asset sizes and SHA-256 verified",
+    "UTF-8 without BOM or mojibake"
+  ],
+  "sourcePages": 952,
+  "documents": 94,
+  "images": 2880,
+  "warnings": {
+    "no-product-image": 96,
+    "duplicate-characteristic": 732,
+    "title-model-mismatch": 194,
+    "duplicate-sku-source": 33,
+    "no-characteristics": 2
+  },
+  "excludedDocuments": [
+    "VEDA CST"
+  ]
+}

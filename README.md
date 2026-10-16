@@ -34,7 +34,6 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 - Catalog popularity sorting is the default category order; `sort=popular` uses `Product.popularityWeight + sold quantity from non-cancelled order items`.
 - The product detail page uses `src/components/product/product-gallery.tsx` to render a compact main image with left-side thumbnails from `ProductImage` records.
 - Product documentation can be stored as multiple related `ProductDocument` records with file metadata and display ordering.
-- Catalog products are imported from `docs/Anneng.xlsx` with `npm run prisma:import-anneng`.
 
 ## Learn More
 
@@ -97,7 +96,7 @@ Recommended CORS rule for the production bucket:
 ```xml
 <CORSConfiguration>
   <CORSRule>
-    <AllowedOrigin>https://shinoprovod-anneng.ru</AllowedOrigin>
+    <AllowedOrigin>https://drives-vfd.ru</AllowedOrigin>
     <AllowedMethod>PUT</AllowedMethod>
     <AllowedMethod>GET</AllowedMethod>
     <AllowedMethod>HEAD</AllowedMethod>
@@ -153,7 +152,6 @@ Runtime diagnostics:
 - Admin authentication still uses `StaffUser` and a signed httpOnly `admin_session` cookie; production requires `AUTH_SECRET` or `NEXTAUTH_SECRET`.
 - `/contacts` now renders the callback form component inside the contact section and uses `react-hook-form` for local validation.
 - Category images are now stored on `Category.imageUrl`; the `/catalog` page reads them from Prisma and falls back to the shared product placeholder when empty.
-- `prisma/import-anneng-xlsx.mjs` reads the `Основная` and `Прайс` sheets from `docs/Anneng.xlsx`, then upserts catalog reference data and products. Run `npm run test:anneng-import` after importing.
 - The admin products section now has a "Серии товаров" tab that loads `Series` records with product counts and mirrors the category-management layout for adding a new series.
 - The "Серии товаров" admin form now saves new series through `POST /api/admin/series`, validates staff access and slug format, then refreshes the dashboard data.
 - The admin category form now saves new categories through `POST /api/admin/categories`, including optional parent category, image URL, and description.

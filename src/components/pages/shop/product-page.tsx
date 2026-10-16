@@ -43,7 +43,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
     }
 
     const product = await prisma.product.findUnique({
-        where: { slug },
+        where: { slug, status: 'ACTIVE' },
         select: {
             id: true,
             sku: true,

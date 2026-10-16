@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic';
 
 export const metadata = createPageMetadata(
     'Админ-панель',
-    'Административная панель Anneng для управления каталогом, заказами и настройками.',
+    'Административная панель VEDA VFD для управления каталогом, заказами и настройками.',
 );
 
 export default function ControlPanel() {

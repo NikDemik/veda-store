@@ -11,7 +11,7 @@ type ProductRouteProps = {
 export async function generateMetadata({ params }: ProductRouteProps) {
     const { slug } = await params;
     const product = await prisma.product.findUnique({
-        where: { slug },
+        where: { slug, status: 'ACTIVE' },
         select: {
             name: true,
             description: true,

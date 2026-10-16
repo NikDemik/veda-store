@@ -3,7 +3,7 @@ import { createPageMetadata } from '@/lib/metadata';
 
 export const metadata = createPageMetadata(
     'Регистрация',
-    'Регистрация личного кабинета Anneng для оформления B2B-заказов.',
+    'Регистрация личного кабинета VEDA VFD для оформления B2B-заказов.',
 );
 
 export default function Register() {

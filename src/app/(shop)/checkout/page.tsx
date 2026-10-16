@@ -4,7 +4,7 @@ import { createPageMetadata } from '@/lib/metadata';
 
 export const metadata = createPageMetadata(
     'Оформление заказа',
-    'Оформление заказа Anneng с оплатой по выставленному счету.',
+    'Оформление заказа VEDA VFD с оплатой по выставленному счету.',
 );
 
 export default function CheckoutPage() {

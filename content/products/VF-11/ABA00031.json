@@ -1,0 +1,285 @@
+{
+  "title": "Преобразователи частоты VEDA VFD VF-11 Compact Drive (Компактный привод) — ABA00031 — VF-11-P7K5-0017-T4-E20",
+  "description": "ОписаниеПреобразователи частоты VEDA VFD VF-11 Compact Drive (Компактный привод) — ABA00031 — VF-11-P7K5-0017-T4-E20. Экономичный и компактный частотный преобразователь широкого спектра применения в промышленности и системах ОВиК серии VEDA VF-11 Compact Drive (Компактный привод). Преобразователь частоты имеет встроенную цифровую панель оператора, защитное покрытие печатных плат 3С3, что позволяет экономить средства на необходимом дополнительном оборудовании. Класс защиты корпуса IP20. Для интеграции в сетевую инфраструктуру оснащен встроенным интерфейсом RS-485. Преобразователь частоты имеет встроенный тормозной прерыватель и фильтр ЭМС базового класса. Преобразователь частоты имеет \"книжную конструкцию\", что позволяет при монтаже существенно экономить свободное место в шкафу управления. Система охлаждения устройства позволяет работать при повышенных температурах окружающей среды до +50С, на малых мощностях преобразователь частоты имеет пассивную систему охлаждения в виде радиатора. Также ПЧ имеет ряд полезных специализированных функций, таких как: ПИД-регулирование, автозапуск, подхват на лету, пропуск резонансных частот, ограничение минимальной и максимальной частот, функции ПЛК, многоскоростной режим, 4 набора параметров двигателя. Для эффективной работы двигателя частотный преобразователь имеет ряд защит: перенапряжение, пониженное напряжение, перегрузка по току, короткое замыкание, потеря фазы, перегрев, защита от повреждения данных и т. д. Напряжение 3×380В. Перегрузочная способность 150 % в течение 89 секунд, 180 % в течение 10 секунд, 200 % в течение 3 секунд. Максимальная выходная мощность 7,5 кВт. Номинальный выходной ток 17А, ток перегрузки 25,5A.",
+  "descriptionHtml": "<div class=\"in-blocks__title\"><div class=\"in-blocks__title-name\">Описание</div></div><div class=\"page\"><div class=\"desc\"><p>Преобразователи частоты VEDA VFD VF-11 Compact Drive (Компактный привод) — ABA00031 — VF-11-P7K5-0017-T4-E20. Экономичный и компактный частотный преобразователь широкого спектра применения в промышленности и системах ОВиК серии VEDA VF-11 Compact Drive (Компактный привод).</p>\n\n<p>Преобразователь частоты имеет встроенную цифровую панель оператора, защитное покрытие печатных плат 3С3, что позволяет экономить средства на необходимом дополнительном оборудовании.</p>\n\n<p>Класс защиты корпуса IP20. Для интеграции в сетевую инфраструктуру оснащен встроенным интерфейсом RS-485. Преобразователь частоты имеет встроенный тормозной прерыватель и фильтр ЭМС базового класса.</p>\n\n<p>Преобразователь частоты имеет \"книжную конструкцию\", что позволяет при монтаже существенно экономить свободное место в шкафу управления. Система охлаждения устройства позволяет работать при повышенных температурах окружающей среды до +50С, на малых мощностях преобразователь частоты имеет пассивную систему охлаждения в виде радиатора. Также ПЧ имеет ряд полезных специализированных функций, таких как: ПИД-регулирование, автозапуск, подхват на лету, пропуск резонансных частот, ограничение минимальной и максимальной частот, функции ПЛК, многоскоростной режим, 4 набора параметров двигателя. Для эффективной работы двигателя частотный преобразователь имеет ряд защит: перенапряжение, пониженное напряжение, перегрузка по току, короткое замыкание, потеря фазы, перегрев, защита от повреждения данных и т. д.</p>\n\n<p>Напряжение 3×380В. Перегрузочная способность 150 % в течение 89 секунд, 180 % в течение 10 секунд, 200 % в течение 3 секунд. Максимальная выходная мощность 7,5 кВт. Номинальный выходной ток 17А, ток перегрузки 25,5A.</p></div></div>",
+  "documents": [
+    {
+      "title": "Брошюра для опций VF-101 и VF-51 (Опции для преобразователей).pdf",
+      "sourceUrl": "https://drives.ru/dh-files/ef9b3a4f-992d-446d-b3d2-6c1501ad539b/%D0%91%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D0%BF%D1%86%D0%B8%D0%B9%20VF-101%20%D0%B8%20VF-51%20%28%D0%9E%D0%BF%D1%86%D0%B8%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%29.pdf",
+      "group": "Брошюры и листовки expand_more",
+      "localPath": "assets/documents/41960523596b-Брошюра для опций VF-101 и VF-51 (Опции для преобразователей).pdf",
+      "bytes": 4488809,
+      "sha256": "78145bc1a35f7cbc2ed568dcba5d0cec56cf9c15e61742c99a02ce5af823d07e",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Листовка VEDA VFD VF-11 Compact Drive.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/42829e69-af76-4029-8060-3b2e2dbdb565/%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20VEDA%20VFD%20VF-11%20Compact%20Drive.pdf",
+      "group": "Брошюры и листовки expand_more",
+      "localPath": "assets/documents/a61cdf3922cc-Листовка VEDA VFD VF-11 Compact Drive.pdf",
+      "bytes": 399384,
+      "sha256": "c88e5ad260a1c4767721457c72f99cd1699035c63110ba6928463bc5eeb705b0",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Брошюра VEDA VF-11.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/d80486d5-d9a8-4891-845e-63f1461c6937/%D0%91%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0%20VEDA%20VF-11.pdf",
+      "group": "Брошюры и листовки expand_more",
+      "localPath": "assets/documents/2945760782d7-Брошюра VEDA VF-11.pdf",
+      "bytes": 4353090,
+      "sha256": "8516ece31a104522f91ed111fcf64fc9dd46916f32736d7bf1ef6e9337be01b3",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Краткая инструкция по эксплуатации VF-11.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/4398955d-506d-4d79-9e8c-dc1b64c6cd7d/%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F%20%D0%BF%D0%BE%20%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D0%B0%D1%86%D0%B8%D0%B8%20VF-11.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/c7b8f8e1d953-Краткая инструкция по эксплуатации VF-11.pdf",
+      "bytes": 1963576,
+      "sha256": "c2489aa989a2c74eb13bbc6db94a6079580864135c53ad08873ce1555777f5df",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Руководство по эксплуатации VF-11.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/b7536722-4c08-4aa0-8e45-8265207c6602/%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%20%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D0%B0%D1%86%D0%B8%D0%B8%20VF-11.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/d4ee55c74a66-Руководство по эксплуатации VF-11.pdf",
+      "bytes": 8678328,
+      "sha256": "7afab5330446515768f73c21a140e6f66bc2acb05c82438b76eb3a17f1e23dc8",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Чертежи VF-11 (PDF).zip",
+      "sourceUrl": "https://drives.ru/dh-files/548ab5c7-8321-46d8-bf3c-11cf4b8e802c/%D0%A7%D0%B5%D1%80%D1%82%D0%B5%D0%B6%D0%B8%20VF-11%20%28PDF%29.zip",
+      "group": "Чертежи expand_more",
+      "localPath": "assets/documents/0acc7a4e3a75-Чертежи VF-11 (PDF).zip",
+      "bytes": 665958,
+      "sha256": "a01a09884234d1a2d1f7d335069e81391d5962f75eb1ddda020bfe9d8d36881c",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Чертежи VF-11 (DWG).zip",
+      "sourceUrl": "https://drives.ru/dh-files/4761aef0-b729-4f39-9f0a-501e4abd7693/%D0%A7%D0%B5%D1%80%D1%82%D0%B5%D0%B6%D0%B8%20VF-11%20%28DWG%29.zip",
+      "group": "Чертежи expand_more",
+      "localPath": "assets/documents/d0d9b19296f8-Чертежи VF-11 (DWG).zip",
+      "bytes": 20781269,
+      "sha256": "56139acc0d0bd68fd4ef867a125916a24dd3a8e6f75dd9f8686777dc98289adc",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "3D модели VF-11 (STP).zip",
+      "sourceUrl": "https://drives.ru/dh-files/cd9f7731-0bb7-42d3-a657-d9aab6b86c6f/3D%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%20VF-11%20%28STP%29.zip",
+      "group": "3D Модели expand_more",
+      "localPath": "assets/documents/dc73ef1ebddf-3D модели VF-11 (STP).zip",
+      "bytes": 27534402,
+      "sha256": "19803206062362a99c36fe1790083ab01b7a9aea7d936f175b4f4bba6fd5b0de",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Морской сертификат ПЧ РМРС.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/75f5ef1f-78ed-48ec-9fe2-4903867ed1af/%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%9F%D0%A7%20%D0%A0%D0%9C%D0%A0%D0%A1.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/899d0bbd49e7-Морской сертификат ПЧ РМРС.pdf",
+      "bytes": 177771,
+      "sha256": "10b1bdf9fc9f89ef9ce022192ab7e7f27a988851a3445e9f8de323d7ae3ad554",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Декларация о соответствии ТР ТС 020_2011.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/f5dae083-dc84-4148-899f-e4a8a8b21530/%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BE%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B8%20%D0%A2%D0%A0%20%D0%A2%D0%A1%20020_2011.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/195d4fe15eca-Декларация о соответствии ТР ТС 020_2011.pdf",
+      "bytes": 173719,
+      "sha256": "a834fb5db62aa1886ff3b74eb61a7cc1edc337282f707d6fa761f3ae87ec4c69",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Сертификат соответствия ТР ТС 004_2011.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/b84cd99a-c690-4259-9daa-9d27de25a7a0/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D1%8F%20%D0%A2%D0%A0%20%D0%A2%D0%A1%20004_2011.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/bb04e8ce2cff-Сертификат соответствия ТР ТС 004_2011.pdf",
+      "bytes": 171673,
+      "sha256": "6baf8f62dce84984642a7abc733c3a0aaf70aaef44505eb79329e144e43f8262",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    }
+  ],
+  "sku": "ABA00031",
+  "characteristics": [
+    {
+      "name": "Типовой код",
+      "value": "VF-11-P7K5-0017-T4-E20-B-H"
+    },
+    {
+      "name": "Серия",
+      "value": "VF-11 Compact Drive (Компактный привод)"
+    },
+    {
+      "name": "Краткое описание",
+      "value": "Преобразователь частоты VEDA VFD VF-11 Compact Drive (Компактный привод)"
+    },
+    {
+      "name": "Выходная мощность, кВт",
+      "value": "7.5"
+    },
+    {
+      "name": "Входное напряжение, В",
+      "value": "3х400"
+    },
+    {
+      "name": "Выходное напряжение, В",
+      "value": "Трехфазное, 0-100 % входного напряжения, погрешность±2,5%"
+    },
+    {
+      "name": "Номинальный выходной ток, А",
+      "value": "17"
+    },
+    {
+      "name": "Перегрузочная способность, %",
+      "value": "150"
+    },
+    {
+      "name": "Торм.ключ",
+      "value": "Да"
+    },
+    {
+      "name": "Дроссель шины постоянного тока",
+      "value": "Нет"
+    },
+    {
+      "name": "Количество и тип входов",
+      "value": "3 цифровых входа; 1 аналоговых входа (AS 0/4-20 мА) (VS 0-10 В)"
+    },
+    {
+      "name": "Количество и тип выходов",
+      "value": "1 релейный выход; 1 цифровой выход (с открытым коллектором)"
+    },
+    {
+      "name": "Канал связи",
+      "value": "Modbus RTU"
+    },
+    {
+      "name": "Панель оператора",
+      "value": "Съемная цифровая"
+    },
+    {
+      "name": "Фильтр ЭМС",
+      "value": "Базовый"
+    },
+    {
+      "name": "Тепловые потери, Вт",
+      "value": "224"
+    },
+    {
+      "name": "Панель оператора",
+      "value": "Съемная цифровая"
+    },
+    {
+      "name": "Степень защиты",
+      "value": "IP20"
+    },
+    {
+      "name": "ВхШхГ, мм",
+      "value": "233x100x165"
+    },
+    {
+      "name": "Масса, кг",
+      "value": "1,51"
+    },
+    {
+      "name": "Краткое описание",
+      "value": "Преобразователь частоты VEDA VFD VF-11 Compact Drive (Компактный привод)"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/97/41/4197/images/8917/8917.970.png",
+      "alt": "Преобразователи частоты VEDA VFD VF-11 Compact Drive (Компактный привод) — ABA00031 — VF-11-P7K5-0017-T4-E20",
+      "localPath": "assets/images/5ad701d259cb-8917.970.png",
+      "bytes": 180164,
+      "sha256": "da6cdb0dd898b14b1f5f0ae8a548ff8f1151aa32e8e7c41cd06e8fc7afdd1117",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/97/41/4197/images/8910/8910.970.png",
+      "alt": "Преобразователи частоты VEDA VFD VF-11 Compact Drive (Компактный привод) — ABA00031 — VF-11-P7K5-0017-T4-E20",
+      "localPath": "assets/images/11dc91bdf5fa-8910.970.png",
+      "bytes": 304262,
+      "sha256": "40f2272fe9703925fc262107b1fbded5468bb7d570a0da86098cbffebb0203fc",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/97/41/4197/images/8914/8914.970.png",
+      "alt": "Преобразователи частоты VEDA VFD VF-11 Compact Drive (Компактный привод) — ABA00031 — VF-11-P7K5-0017-T4-E20",
+      "localPath": "assets/images/4d5cdcaa4ae4-8914.970.png",
+      "bytes": 157882,
+      "sha256": "84bc68efe5ad6182b5e31707cf929a5b6095ea411f82cb5b049fcd84c3f65d0b",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/97/41/4197/images/8927/8927.970.jpg",
+      "alt": "Преобразователи частоты VEDA VFD VF-11 Compact Drive (Компактный привод) — ABA00031 — VF-11-P7K5-0017-T4-E20",
+      "localPath": "assets/images/6e4c14b74611-8927.970.jpg",
+      "bytes": 62022,
+      "sha256": "2374d237c473297d53b2710ac29ba5088cb65fa58007a260a08c6db9e94a5f5a",
+      "contentType": "image/jpeg",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    }
+  ],
+  "price": {
+    "raw": "44 153 ₽",
+    "currency": "RUB",
+    "tax": "без НДС"
+  },
+  "availability": "Артикул: ABA00031На складе в Москве",
+  "source": {
+    "url": "https://drives.ru/preobrazovateli-chastoty-veda-vfd-vf-11-compact-drive-aba00031-vf-11-p7k5-0017-t4-e20/",
+    "rawHtml": "raw/pages/ae8f53a6c5176eefeda5.html",
+    "sha256": "b74aa49122e5ffeadd6fe127d5cd9140e47b4fd31bc112322e55c8c70d38a7e7",
+    "collectedAt": "2026-10-16T10:21:39.137Z"
+  },
+  "seriesId": "VF-11",
+  "categoryPath": [
+    "Низковольтные ПЧ и УПП",
+    "Преобразователи частоты VEDA VFD",
+    "Преобразователи частоты VEDA VFD VF-11 Compact Drive (Компактный привод)"
+  ],
+  "model": "VF-11-P7K5-0017-T4-E20-B-H",
+  "schemaVersion": 1,
+  "warnings": [
+    {
+      "type": "title-model-mismatch",
+      "titleModel": "VF-11-P7K5-0017-T4-E20",
+      "characteristicModel": "VF-11-P7K5-0017-T4-E20-B-H"
+    },
+    {
+      "type": "duplicate-characteristic",
+      "name": "Панель оператора",
+      "values": [
+        "Съемная цифровая",
+        "Съемная цифровая"
+      ]
+    },
+    {
+      "type": "duplicate-characteristic",
+      "name": "Краткое описание",
+      "values": [
+        "Преобразователь частоты VEDA VFD VF-11 Compact Drive (Компактный привод)",
+        "Преобразователь частоты VEDA VFD VF-11 Compact Drive (Компактный привод)"
+      ]
+    }
+  ]
+}

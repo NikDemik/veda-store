@@ -3,7 +3,7 @@ import { catalogImportSheets } from '@/config/catalogImport';
 
 export async function createCatalogImportTemplate() {
     const workbook = new ExcelJS.Workbook();
-    workbook.creator = 'Anneng Admin';
+    workbook.creator = 'Admin';
     for (const [sheetName, headers] of Object.entries(catalogImportSheets)) {
         const sheet = workbook.addWorksheet(sheetName, { views: [{ state: 'frozen', ySplit: 1 }] });
         sheet.addRow([...headers]);

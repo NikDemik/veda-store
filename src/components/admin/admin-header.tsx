@@ -24,7 +24,7 @@ export function AdminHeader({ staffUser }: AdminHeaderProps) {
                     </Link>
                     <div>
                         <p className="text-base font-semibold leading-tight">
-                            Панель управления Anneng
+                            Панель управления
                         </p>
                         <p className="text-xs text-white/55">Внутренний контур управления</p>
                     </div>

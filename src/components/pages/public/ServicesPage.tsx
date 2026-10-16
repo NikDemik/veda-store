@@ -15,7 +15,7 @@ export default function Services() {
         <div className="relative w-screen pt-12 space-y-20">
             <div className="relative container mx-auto space-y-8 px-5">
                 <h1 className=" max-w-265 mb-8 uppercase text-dark-accent">
-                    Подбор, поставка и сопровождение промышленного оборудования ANNENG ELECTRIC
+                    Подбор, поставка и сопровождение промышленного оборудования VEDA VFD
                 </h1>
                 <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
                     {serviceCards.map((data) => {

@@ -25,7 +25,7 @@ export const legalCompany = {
     postalAddress: '141701, Московская обл., г. Долгопрудный, а/я 424',
     phone: '+7 (499) 403-17-76',
     email: 'info@alpark.ru',
-    site: 'shinoprovod-anneng.ru',
+    site: 'drives-vfd.ru',
     director: 'Новикова Юлия Николаевна',
     bank: 'ПАО Сбербанк',
     checkingAccount: '40702810940000055073',
@@ -75,7 +75,7 @@ export const legalDocuments: LegalDocument[] = [
                 items: [
                     `Телефон: ${legalCompany.phone}.`,
                     `Электронная почта: ${legalCompany.email}.`,
-                    `Сайт интернет-магазина Anneng Electric: ${legalCompany.site}.`,
+                    `Сайт интернет-магазина VEDA VFD: ${legalCompany.site}.`,
                     'Рабочее время: понедельник - пятница, 09:00 - 18:00 по московскому времени.',
                 ],
             },
@@ -96,7 +96,7 @@ export const legalDocuments: LegalDocument[] = [
         title: 'Правила работы интернет-магазина',
         summary: 'Общие правила B2B-заказов, регистрации, счетов, коммерческих предложений и взаимодействия с менеджерами.',
         effectiveDate,
-        scope: 'Применяется ко всем посетителям и зарегистрированным пользователям интернет-магазина Anneng Electric.',
+        scope: 'Применяется ко всем посетителям и зарегистрированным пользователям интернет-магазина VEDA VFD.',
         relatedSlugs: ['user-agreement', 'order-terms', 'supply-contract-procedure'],
         sections: [
             {

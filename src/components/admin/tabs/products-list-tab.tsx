@@ -25,6 +25,7 @@ export function ProductsListTab({ products, onAddProduct, onEditProduct }: Produ
     const router = useRouter();
     const [articleFilter, setArticleFilter] = useState('');
     const [categoryFilter, setCategoryFilter] = useState('all');
+    const [seriesFilter, setSeriesFilter] = useState('all');
     const [availabilityFilter, setAvailabilityFilter] = useState<'all' | AvailabilityStatus>('all');
     const [deleteCandidate, setDeleteCandidate] = useState<AdminProduct | null>(null);
     const [deleteError, setDeleteError] = useState<string | null>(null);
@@ -47,6 +48,19 @@ export function ProductsListTab({ products, onAddProduct, onEditProduct }: Produ
             ),
         [products],
     );
+    const series = useMemo(
+        () =>
+            Array.from(
+                new Map(
+                    products.flatMap((product) =>
+                        product.series ? [[product.series.id, product.series] as const] : [],
+                    ),
+                ).values(),
+            ).sort((firstSeries, secondSeries) =>
+                firstSeries.name.localeCompare(secondSeries.name, 'ru'),
+            ),
+        [products],
+    );
     const filteredProducts = useMemo(() => {
         const normalizedArticle = articleFilter.trim().toLowerCase();
 
@@ -59,18 +73,25 @@ export function ProductsListTab({ products, onAddProduct, onEditProduct }: Produ
                 categoryFilter === 'all' || product.category.id.toString() === categoryFilter;
             const matchesAvailability =
                 availabilityFilter === 'all' || product.availability === availabilityFilter;
+            const matchesSeries =
+                seriesFilter === 'all' ||
+                (seriesFilter === 'none'
+                    ? product.series === null
+                    : product.series?.id.toString() === seriesFilter);
 
-            return matchesArticle && matchesCategory && matchesAvailability;
+            return matchesArticle && matchesCategory && matchesAvailability && matchesSeries;
         });
-    }, [articleFilter, availabilityFilter, categoryFilter, products]);
+    }, [articleFilter, availabilityFilter, categoryFilter, products, seriesFilter]);
     const hasActiveFilters =
         articleFilter.trim().length > 0 ||
         categoryFilter !== 'all' ||
+        seriesFilter !== 'all' ||
         availabilityFilter !== 'all';
 
     function resetFilters() {
         setArticleFilter('');
         setCategoryFilter('all');
+        setSeriesFilter('all');
         setAvailabilityFilter('all');
     }
 
@@ -124,7 +145,7 @@ export function ProductsListTab({ products, onAddProduct, onEditProduct }: Produ
             </div>
 
             <div className="mt-6 rounded-[1.5rem] border border-grey/80 bg-grey/20 p-4">
-                <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(12rem,18rem)_minmax(12rem,18rem)_auto] lg:items-end">
+                <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-[repeat(4,minmax(0,1fr))_auto] md:items-end">
                     <label className="block space-y-2 text-sm font-medium text-black">
                         <span>Артикул</span>
                         <input
@@ -146,6 +167,22 @@ export function ProductsListTab({ products, onAddProduct, onEditProduct }: Produ
                             {categories.map((category) => (
                                 <option key={category.id} value={category.id}>
                                     {category.name}
+                                </option>
+                            ))}
+                        </select>
+                    </label>
+                    <label className="block space-y-2 text-sm font-medium text-black">
+                        <span>Серия</span>
+                        <select
+                            className={inputClassName}
+                            value={seriesFilter}
+                            onChange={(event) => setSeriesFilter(event.target.value)}
+                        >
+                            <option value="all">Все серии</option>
+                            <option value="none">Без серии</option>
+                            {series.map((item) => (
+                                <option key={item.id} value={item.id}>
+                                    {item.name}
                                 </option>
                             ))}
                         </select>

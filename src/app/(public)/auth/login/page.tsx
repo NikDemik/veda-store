@@ -3,7 +3,7 @@ import { createPageMetadata } from '@/lib/metadata';
 
 export const metadata = createPageMetadata(
     'Вход',
-    'Вход в личный кабинет Anneng для просмотра заказов и данных организации.',
+    'Вход в личный кабинет VEDA VFD для просмотра заказов и данных организации.',
 );
 
 export default function Login() {

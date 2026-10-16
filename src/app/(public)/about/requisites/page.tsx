@@ -3,7 +3,7 @@ import { createPageMetadata } from '@/lib/metadata';
 
 export const metadata = createPageMetadata(
     'Реквизиты',
-    'Юридические и банковские реквизиты компании Anneng.',
+    'Юридические и банковские реквизиты компании VEDA VFD.',
 );
 
 export default function RequisitesRoute() {

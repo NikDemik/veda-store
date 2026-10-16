@@ -3,7 +3,7 @@ import { createPageMetadata } from '@/lib/metadata';
 
 export const metadata = createPageMetadata(
     'Вход в админ-панель',
-    'Авторизация сотрудников в административной панели Anneng.',
+    'Авторизация сотрудников в административной панели VEDA VFD.',
 );
 
 export default function ControlPanelLogin() {

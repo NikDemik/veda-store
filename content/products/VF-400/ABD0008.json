@@ -1,0 +1,133 @@
+{
+  "title": "Инвертор со встроенным дросселем и без функции STO — ABD0008 — VF-400-INU-T4-728",
+  "description": "",
+  "descriptionHtml": "",
+  "documents": [
+    {
+      "title": "Брошюра VF-400.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/f7fa0dd5-e11e-4963-b265-121c444fe2d8/%D0%91%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0%20VF-400.pdf",
+      "group": "Брошюры и листовки expand_more",
+      "localPath": "assets/documents/2c823cf4e640-Брошюра VF-400.pdf",
+      "bytes": 790382,
+      "sha256": "0dd1f49ca69afc1121083d16cc77b59595dec06e74722eaaa5b2fd6494dac633",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "VF-400 AFE Руководство пользователя V1.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/f279ced6-a72c-4b5e-bd14-2d7b635521bd/VF-400%20AFE%20%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%20V1.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/37dc6208273d-VF-400 AFE Руководство пользователя V1.pdf",
+      "bytes": 2254827,
+      "sha256": "84c01f5fa5405e0922eb94e3a0ba216afd28550ae28a52ebd432233ea046134f",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "VF-400-INU Руководство по программированию V1.1.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/30502059-cf3e-4e2c-aa56-9979ac8cd4e0/VF-400-INU%20%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E%20V1.1.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/4100a5f15a2f-VF-400-INU Руководство по программированию V1.1.pdf",
+      "bytes": 7187179,
+      "sha256": "410fe454f822c30d89ecd0323a32b6e70b7181094e86dd02b81864f208a950a2",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "VF-400-INU Руководство пользователя V1.3.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/6aeb7394-cf46-4a66-b9b5-f529337a9efe/VF-400-INU%20%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%20V1.3.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/8b77adb297aa-VF-400-INU Руководство пользователя V1.3.pdf",
+      "bytes": 41744761,
+      "sha256": "cf38ea89451b88b02fb383df48b6cff9f2b7f6edc9fb34a87815ef933b33db96",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "title": "VF-400-NFE Руководство пользователя v1.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/dbb03156-5a10-46ee-9503-f24180eb170b/VF-400-NFE%20%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%20v1.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/df0c626103d9-VF-400-NFE Руководство пользователя v1.pdf",
+      "bytes": 6549633,
+      "sha256": "965b14261e7944fcad88e6a7f16f55f6028acd0713e3a6fa2237f24c410301c3",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    }
+  ],
+  "sku": "ABD0008",
+  "characteristics": [
+    {
+      "name": "Мощность тяжёлая перегрузка , кВт",
+      "value": "315"
+    },
+    {
+      "name": "Ток тяжёлая перегрузка Iac, А",
+      "value": "569"
+    },
+    {
+      "name": "Мощность лёгкая перегрузка, кВт",
+      "value": "400"
+    },
+    {
+      "name": "Ток лёгкая перегрузка Iac, А",
+      "value": "728"
+    },
+    {
+      "name": "Мощность без перегрузки, кВт",
+      "value": "400"
+    },
+    {
+      "name": "Ток без перегрузки Iac, А",
+      "value": "758"
+    },
+    {
+      "name": "Потери, кВт",
+      "value": "8"
+    },
+    {
+      "name": "Воздуш. Поток, м3/ч",
+      "value": "1700"
+    },
+    {
+      "name": "Габарит, Ш*Г*В (мм)",
+      "value": "230*584*1380"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/12/41/4112/images/8818/8818.970.jpg",
+      "alt": "Инвертор со встроенным дросселем и без функции STO — ABD0008 — VF-400-INU-T4-728",
+      "localPath": "assets/images/12cc2cef4666-8818.970.jpg",
+      "bytes": 85645,
+      "sha256": "2e01c000c2ca2e9f9fe1f43c61eabe579d3ba223a102b48092efb8cfa5816324",
+      "contentType": "image/jpeg",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    }
+  ],
+  "price": {
+    "raw": "3 335 836,20 ₽",
+    "currency": "RUB",
+    "tax": "без НДС"
+  },
+  "availability": "Артикул: ABD0008Под заказ",
+  "source": {
+    "url": "https://drives.ru/invertor-so-vstroennym-drosselem-i-bez-funkcii-sto-abd0008-vf-400-inu-t4-728/",
+    "rawHtml": "raw/pages/c3d2787d1fed5d8a6079.html",
+    "sha256": "b566a9cf82150e4b456701c16ed1961a519f85880b02b776b8cb60ed306a18bf",
+    "collectedAt": "2026-10-16T10:21:39.137Z"
+  },
+  "seriesId": "VF-400",
+  "categoryPath": [
+    "Низковольтные ПЧ и УПП",
+    "Модульные решения на базе преобразователей частоты VF-400"
+  ],
+  "model": null,
+  "schemaVersion": 1,
+  "warnings": [
+    {
+      "type": "title-model-mismatch",
+      "titleModel": "VF-400-INU-T4-728",
+      "characteristicModel": null
+    }
+  ]
+}

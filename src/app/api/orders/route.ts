@@ -135,6 +135,9 @@ export async function POST(request: Request) {
             sku: true,
             name: true,
             price: true,
+            priceOnRequest: true,
+            status: true,
+            isSellable: true,
             vatRate: true,
             availability: true,
         },
@@ -148,6 +151,13 @@ export async function POST(request: Request) {
     }
 
     const quantityByProduct = new Map(payload.items.map((item) => [item.productId, item.quantity]));
+
+    if (products.some((product) => product.priceOnRequest || product.status !== 'ACTIVE' || !product.isSellable)) {
+        return NextResponse.json(
+            { error: 'Один или несколько товаров недоступны для заказа или требуют уточнения цены.' },
+            { status: 400 },
+        );
+    }
 
     const discountTotal = new Prisma.Decimal(0);
     let subtotal = new Prisma.Decimal(0);

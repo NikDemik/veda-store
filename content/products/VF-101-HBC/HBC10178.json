@@ -1,0 +1,236 @@
+{
+  "title": "Преобразователь частоты VEDA VFD — HBC10178 — VF-101-P110-0121-U-T6-E54-N-H",
+  "description": "ОписаниеПреобразователь частоты VEDA VFD VF-101 Basic Drive (Базовый привод) с высокой перегрузкой — HBC10178 — VF-101-P110-0121-U-T6-E54-N-H. Специализированный преобразователь частоты совместим с различными сетевыми протоколами. Данная серия имеет специальные насосные и вентиляторные функции. Подходит для применения с насосами, вентиляторами, системами пожаротушения.Входное напряжение 3×660 В.Максимальная выходная мощность 110 кВт. Тепловые потери 2200 Вт.Номинальный ток 121A. Перегрузочная способность высокая: 150% — 89 с, 180% — 10 с, 200% — 3 с. Класс защиты IP54, металлический корпус. Без тормозного прерывателя.Преобразователь частоты имеет базовый класс ЭМС. Без дросселя.",
+  "descriptionHtml": "<div class=\"in-blocks__title\"><div class=\"in-blocks__title-name\">Описание</div></div><div class=\"page\"><div class=\"desc\"><p><strong>Преобразователь частоты VEDA VFD VF-101 Basic Drive (Базовый привод) с высокой перегрузкой — HBC10178 — VF-101-P110-0121-U-T6-E54-N-H.</strong><br><br> Специализированный преобразователь частоты совместим с различными сетевыми протоколами. Данная серия имеет специальные насосные и вентиляторные функции. Подходит для применения с насосами, вентиляторами, системами пожаротушения.<br><br>Входное напряжение 3×660 В.Максимальная выходная мощность 110 кВт. Тепловые потери 2200 Вт.<br>Номинальный ток 121A. Перегрузочная способность высокая: 150% — 89 с, 180% — 10 с, 200% — 3 с. Класс защиты IP54, металлический корпус. Без тормозного прерывателя.<br>Преобразователь частоты имеет базовый класс ЭМС. Без дросселя.</p></div></div>",
+  "documents": [
+    {
+      "title": "Каталог VEDA VFD.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/d8835727-4cf3-410f-ab91-b28c4969f08a/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3%20VEDA%20VFD.pdf",
+      "group": "Брошюры и листовки expand_more",
+      "localPath": "assets/documents/26037b65cb42-Каталог VEDA VFD.pdf",
+      "bytes": 10890035,
+      "sha256": "f0c6a1cb7b6f5137fd9eb31ec29ae54c53ea38e44edc40a7f8debb06879e76c0",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Листовка VEDA VF101 HBC.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/e22c2ae2-78d2-496d-a649-add21dc45cff/%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20VEDA%20VF101%20HBC.pdf",
+      "group": "Брошюры и листовки expand_more",
+      "localPath": "assets/documents/f1b595c52140-Листовка VEDA VF101 HBC.pdf",
+      "bytes": 341013,
+      "sha256": "4f884fa1d382d4466f3d82e0d7aab3db14644792e208cb2a4d1b2d95749ddf10",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:06:44.223Z"
+    },
+    {
+      "title": "Руководство по монтажу ПЧ VF-101 HBC IP54.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/64e8fb50-ebd4-4fa5-972e-2fc0fa8aa81a/%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%20%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D1%83%20%D0%9F%D0%A7%20VF-101%20HBC%20IP54.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/bfc4307c2cb8-Руководство по монтажу ПЧ VF-101 HBC IP54.pdf",
+      "bytes": 2786753,
+      "sha256": "2bcc402a43829f523a616c2333e037d5e982efce6faa395d36516abc0c0f8656",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T10:06:44.223Z"
+    },
+    {
+      "title": "Чертежи HBC.zip",
+      "sourceUrl": "https://drives.ru/dh-files/f9aabc07-40cf-4797-aec2-e094f7eb5506/%D0%A7%D0%B5%D1%80%D1%82%D0%B5%D0%B6%D0%B8%20HBC.zip",
+      "group": "Чертежи expand_more",
+      "localPath": "assets/documents/ea25be76a647-Чертежи HBC.zip",
+      "bytes": 1082218,
+      "sha256": "31987b5177bb287430b131bfd6d5eae4acc5474ecbe8bcc40e10bd37f629433a",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:06:44.223Z"
+    },
+    {
+      "title": "Чертежи напольных HBC.zip",
+      "sourceUrl": "https://drives.ru/dh-files/8f6d5b97-5b57-4935-a939-83fae116e722/%D0%A7%D0%B5%D1%80%D1%82%D0%B5%D0%B6%D0%B8%20%D0%BD%D0%B0%D0%BF%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20HBC.zip",
+      "group": "Чертежи expand_more",
+      "localPath": "assets/documents/b3f05385b2b1-Чертежи напольных HBC.zip",
+      "bytes": 30590371,
+      "sha256": "0596436cac7881fcf01d1df9511a713615cc4feff882869705fbeb173919c4da",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:06:44.223Z"
+    },
+    {
+      "title": "3Д напольных HBC.zip",
+      "sourceUrl": "https://drives.ru/dh-files/5297a3f9-4986-4aff-9ac5-858088efbb78/3%D0%94%20%D0%BD%D0%B0%D0%BF%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20HBC.zip",
+      "group": "3D Модели expand_more",
+      "localPath": "assets/documents/a1bb26340dac-3Д напольных HBC.zip",
+      "bytes": 430379326,
+      "sha256": "6988e6b70d0cb1905f52f158ce122f04d167f0002cf7ad94dbf45715253b1a07",
+      "contentType": "application/x-zip-compressed",
+      "downloadedAt": "2026-10-16T10:08:14.708Z"
+    },
+    {
+      "title": "3Д модели навесных HBC.zip",
+      "sourceUrl": "https://drives.ru/dh-files/7831d24f-6d6f-4f5d-84dd-2b2e963b43d8/3%D0%94%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%20%D0%BD%D0%B0%D0%B2%D0%B5%D1%81%D0%BD%D1%8B%D1%85%20HBC.zip",
+      "group": "3D Модели expand_more",
+      "localPath": "assets/documents/61e6cd72a786-3Д модели навесных HBC.zip",
+      "bytes": 120317931,
+      "sha256": "34300df06b2c219b4c604487fe48a974ff8391afcf34c5fc172d5b9e90098db7",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T10:08:14.708Z"
+    },
+    {
+      "title": "Морской сертификат ПЧ РМРС.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/75f5ef1f-78ed-48ec-9fe2-4903867ed1af/%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%9F%D0%A7%20%D0%A0%D0%9C%D0%A0%D0%A1.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/899d0bbd49e7-Морской сертификат ПЧ РМРС.pdf",
+      "bytes": 177771,
+      "sha256": "10b1bdf9fc9f89ef9ce022192ab7e7f27a988851a3445e9f8de323d7ae3ad554",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Декларация о соответствии ТР ТС 020_2011.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/f5dae083-dc84-4148-899f-e4a8a8b21530/%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BE%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B8%20%D0%A2%D0%A0%20%D0%A2%D0%A1%20020_2011.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/195d4fe15eca-Декларация о соответствии ТР ТС 020_2011.pdf",
+      "bytes": 173719,
+      "sha256": "a834fb5db62aa1886ff3b74eb61a7cc1edc337282f707d6fa761f3ae87ec4c69",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Сертификат соответствия ТР ТС 004_2011.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/b84cd99a-c690-4259-9daa-9d27de25a7a0/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D1%8F%20%D0%A2%D0%A0%20%D0%A2%D0%A1%20004_2011.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/bb04e8ce2cff-Сертификат соответствия ТР ТС 004_2011.pdf",
+      "bytes": 171673,
+      "sha256": "6baf8f62dce84984642a7abc733c3a0aaf70aaef44505eb79329e144e43f8262",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    }
+  ],
+  "sku": "HBC10178",
+  "characteristics": [
+    {
+      "name": "Типовой код",
+      "value": "VF-101-P110-0121-U-T6-E54-N-H"
+    },
+    {
+      "name": "Серия",
+      "value": "VF-101 Basic Drive (Базовый привод)"
+    },
+    {
+      "name": "Краткое описание",
+      "value": "VF-101 Basic Drive (Базовый привод) с высокой перегрузкой, 3х660В, шкаф IP54"
+    },
+    {
+      "name": "Выходная мощность, кВт",
+      "value": "110"
+    },
+    {
+      "name": "Входное напряжение, В",
+      "value": "3х690"
+    },
+    {
+      "name": "Выходное напряжение, В",
+      "value": "Трехфазное, 0-100 % входного напряжения, погрешность ±2,5%"
+    },
+    {
+      "name": "Номинальный выходной ток, А",
+      "value": "121"
+    },
+    {
+      "name": "Перегрузочная способность, %",
+      "value": "150"
+    },
+    {
+      "name": "Торм.ключ",
+      "value": "Нет"
+    },
+    {
+      "name": "Дроссель шины постоянного тока",
+      "value": "Нет"
+    },
+    {
+      "name": "Количество и тип входов",
+      "value": "5 цифровых входа; 2 аналоговых входа (0-10 В или 0/4-20 мА)"
+    },
+    {
+      "name": "Количество и тип выходов",
+      "value": "1 аналоговый выход (0-10 В или 0/4-20 мА) 1 релейный выход 1; цифровой выход (с открытым коллектором), (импульсный выход)"
+    },
+    {
+      "name": "Канал связи",
+      "value": "Modbus RTU"
+    },
+    {
+      "name": "Панель оператора",
+      "value": "HMI-панель"
+    },
+    {
+      "name": "Фильтр ЭМС",
+      "value": "Базовый"
+    },
+    {
+      "name": "Панель оператора",
+      "value": "HMI-панель"
+    },
+    {
+      "name": "Степень защиты",
+      "value": "IP54"
+    },
+    {
+      "name": "ВхШхГ, мм",
+      "value": "1268х301х426"
+    },
+    {
+      "name": "Масса, кг",
+      "value": "57,5"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/15/16/1615/images/13275/13275.970.png",
+      "alt": "Преобразователь частоты VEDA VFD — HBC10178 — VF-101-P110-0121-U-T6-E54-N-H",
+      "localPath": "assets/images/35acc89d0c82-13275.970.png",
+      "bytes": 245024,
+      "sha256": "88a622e5104b2f47593adf771d040ea53e7d9ffb23fdcc03af5a7da07905a939",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/15/16/1615/images/13276/13276.970.png",
+      "alt": "Преобразователь частоты VEDA VFD — HBC10178 — VF-101-P110-0121-U-T6-E54-N-H",
+      "localPath": "assets/images/bc334c488f44-13276.970.png",
+      "bytes": 360988,
+      "sha256": "55f14cb8cda79b43a55b2dd31898ca38a4f984caefe860b844fab9831b48362a",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T10:10:01.131Z"
+    }
+  ],
+  "price": {
+    "raw": "1 529 824,40 ₽",
+    "currency": "RUB",
+    "tax": "без НДС"
+  },
+  "availability": "Артикул: HBC10178Под заказ",
+  "source": {
+    "url": "https://drives.ru/preobrazovatel-chastoty-veda-vfd-vf-101-hbc10178/",
+    "rawHtml": "raw/pages/6b88c85680944e384ab0.html",
+    "sha256": "66d4c1543f270dd9b222bb6f9fcd16db51f1d354b54b7ae104b8a9f6e879de4f",
+    "collectedAt": "2026-10-16T10:21:39.137Z"
+  },
+  "seriesId": "VF-101-HBC",
+  "categoryPath": [
+    "Низковольтные ПЧ и УПП",
+    "Преобразователи частоты VEDA VFD",
+    "Преобразователь частоты VEDA VFD VF-101 HBC"
+  ],
+  "model": "VF-101-P110-0121-U-T6-E54-N-H",
+  "schemaVersion": 1,
+  "warnings": [
+    {
+      "type": "duplicate-characteristic",
+      "name": "Панель оператора",
+      "values": [
+        "HMI-панель",
+        "HMI-панель"
+      ]
+    }
+  ]
+}

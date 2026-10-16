@@ -28,86 +28,80 @@ export default function Hero() {
     }, [emblaApi]);
 
     return (
-        <section className="relative w-screen h-[calc(100vh-4rem)] md:h-[calc(100vh-5rem)] lg:h-[calc(100vh-20rem)]">
-            <div
-                className="absolute inset-0 z-10 bg-[#f3f3f3] dark:bg-[#222222] overflow-hidden"
-                aria-hidden="true"
-            >
-                {/* <Image
-                    src="/img/bg-hero-anneng.png"
-                    fill
-                    priority
-                    quality={75}
-                    sizes="100vw"
-                    className="pointer-events-none object-cover object-center"
-                    alt="Фоновое изображение для главного баннера"
-                    loading="eager"
-                /> */}
-            </div>
-
-            <div ref={emblaRef} className="relative z-20 h-full overflow-hidden">
-                <div className="flex h-full">
+        <section className="relative w-full overflow-hidden bg-[#f3f3f3] dark:bg-[#181826]" aria-label="Серии преобразователей частоты VEDA">
+            <div ref={emblaRef} className="relative overflow-hidden">
+                <div className="flex items-stretch">
                     {heroSlides.map((slide, index) => (
-                        <div key={slide.image} className="relative h-full min-w-0 flex-[0_0_100%]">
-                            <div className="relative container mx-auto h-full px-5">
-                                <h1 className="text-2xl lg:text-3xl xl:text-4xl 2xl:text-[3.125rem] mt-28 mb-4 uppercase md:max-w-[46vw] text-black dark:text-white">
-                                    {slide.title} {slide.breakBeforeAccent ? <br /> : null}
-                                    <span className="text-accent">{slide.accent}</span>
-                                </h1>
-                                {slide.description.map((text, descriptionIndex) => (
-                                    <p
-                                        key={text}
-                                        className={
-                                            descriptionIndex === slide.description.length - 1
-                                                ? 'mb-10 text-base text-black dark:text-white md:max-w-[50vw] xl:max-w-175'
-                                                : 'text-base text-black dark:text-white md:max-w-[48vw] xl:max-w-175'
-                                        }
-                                    >
-                                        {text}
-                                    </p>
-                                ))}
-                                <div className="flex flex-col gap-2 md:w-66 xl:flex-row xl:gap-5">
-                                    <Button
-                                        asChild
-                                        className="w-full"
-                                        variant={'default'}
-                                        size={'default'}
-                                    >
-                                        <Link href={menuData[0]?.href ?? '/catalog'}>
-                                            Каталог оборудования
-                                        </Link>
-                                    </Button>
-                                    <Button
-                                        asChild
-                                        className="w-full"
-                                        variant={'outline'}
-                                        size={'default'}
-                                    >
-                                        <Link href={menuData[3]?.href ?? '/contacts'}>
-                                            Запросить подбор
-                                        </Link>
-                                    </Button>
+                        <div key={slide.image} className="relative isolate min-w-0 flex-[0_0_100%]">
+                            <Image
+                                src={slide.background}
+                                alt=""
+                                fill
+                                priority={index === 0}
+                                sizes="100vw"
+                                className="-z-20 object-cover object-right opacity-70 dark:opacity-25"
+                            />
+                            <div aria-hidden="true" className="absolute inset-0 -z-10 bg-linear-to-r from-[#f3f3f3] via-[#f3f3f3]/85 to-transparent dark:from-[#181826] dark:via-[#181826]/85 dark:to-transparent" />
+                            <div className="container relative mx-auto grid min-h-[620px] grid-cols-1 items-center gap-2 px-5 pt-12 pb-24 md:min-h-[580px] md:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] md:gap-8 md:pt-16 md:pb-24 lg:min-h-[640px] lg:gap-12">
+                                <div className="relative z-10 min-w-0">
+                                    <h1 className="mb-5 text-2xl uppercase leading-tight text-black dark:text-white lg:text-3xl xl:text-4xl 2xl:text-[3.125rem]">
+                                        {slide.title} {slide.breakBeforeAccent ? <br /> : null}
+                                        <span className="text-accent">{slide.accent}</span>
+                                    </h1>
+                                    {slide.description.map((text, descriptionIndex) => (
+                                        <p
+                                            key={text}
+                                            className={
+                                                descriptionIndex === slide.description.length - 1
+                                                    ? 'mt-3 mb-7 max-w-xl text-base leading-relaxed text-black/75 dark:text-white/80'
+                                                    : 'max-w-xl text-base leading-relaxed text-black/75 dark:text-white/80'
+                                            }
+                                        >
+                                            {text}
+                                        </p>
+                                    ))}
+                                    <div className="flex max-w-xl flex-col gap-3 xl:flex-row">
+                                        <Button
+                                            asChild
+                                            className="w-full xl:w-auto xl:flex-1"
+                                            variant={'default'}
+                                            size={'default'}
+                                        >
+                                            <Link href={menuData[0]?.href ?? '/catalog'}>
+                                                Каталог оборудования
+                                            </Link>
+                                        </Button>
+                                        <Button
+                                            asChild
+                                            className="w-full xl:w-auto xl:flex-1"
+                                            variant={'outline'}
+                                            size={'default'}
+                                        >
+                                            <Link href={menuData[3]?.href ?? '/contacts'}>
+                                                Запросить подбор
+                                            </Link>
+                                        </Button>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div className="pointer-events-none absolute top-1/3 right-0 z-10 hidden aspect-2000/1400 w-[min(40vw,46rem)] -translate-y-1/2 md:block">
-                                <Image
-                                    src={slide.image}
-                                    fill
-                                    priority={index === 0}
-                                    quality={100}
-                                    sizes="(max-width: 1536px) 40vw, 46rem"
-                                    className="object-contain object-center"
-                                    alt={slide.imageAlt}
-                                />
+                                <div className="pointer-events-none relative mx-auto h-[260px] w-full max-w-[540px] sm:h-[320px] md:h-[420px] lg:h-[480px]">
+                                    <Image
+                                        src={slide.image}
+                                        fill
+                                        priority={index === 0}
+                                        quality={75}
+                                        sizes="(max-width: 767px) 90vw, (max-width: 1280px) 44vw, 540px"
+                                        className="object-contain object-center drop-shadow-[0_24px_24px_rgba(0,20,30,0.18)]"
+                                        alt={slide.imageAlt}
+                                    />
+                                </div>
                             </div>
                         </div>
                     ))}
                 </div>
             </div>
 
-            <div className="pointer-events-none absolute inset-x-0 bottom-[50%] z-50">
-                <div className="mx-auto flex justify-between gap-2 px-5">
+            <div className="pointer-events-none absolute inset-x-0 bottom-6 z-30">
+                <div className="container mx-auto flex justify-end gap-3 px-5">
                     <Button
                         type="button"
                         variant="outline"

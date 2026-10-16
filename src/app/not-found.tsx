@@ -3,7 +3,7 @@ import { createPageMetadata } from '@/lib/metadata';
 
 export const metadata = createPageMetadata(
     'Страница не найдена',
-    'Запрошенная страница не найдена на сайте Anneng.',
+    'Запрошенная страница не найдена на сайте VEDA VFD.',
 );
 
 export default function NotFound() {

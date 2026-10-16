@@ -1,0 +1,314 @@
+{
+  "title": "Преобразователь частоты VEDA VFD — ABA00012 — VF-51-P15K-0032-T4-E20-B-H",
+  "description": "ОписаниеПреобразователь частоты VEDA VFD — ABA00012 — VF-51-P15K-0032-T4-E20-B-H. Универсальный, компактный преобразователь частоты с перегрузкой до 150 % серии VEDA VF-51 Micro Drive (Микро Драйв). Подходит для применения с насосами, вентиляторами, станками и конвейерами. Класс защиты корпуса IP20 (принудительное возд. охлаждение). Для интеграции в сетевую инфраструктуру оснащен встроенным интерфейсом RS-485. В комплектацию входит несъемная цифровая панель оператора с потенциометром и встроенный тормозной прерыватель. Напряжение вход 3×380В, выход 3×380В. Перегрузочная способность для 3-фазного ПЧ: 150 % — 60 с, 180 % — 5 с, 200 % — 0,5 с.Максимальная выходная мощность 15 кВт. Тепловые потери 450 Вт. Номинальный выходной ток 32А, ток перегрузки 48A.",
+  "descriptionHtml": "<div class=\"in-blocks__title\"><div class=\"in-blocks__title-name\">Описание</div></div><div class=\"page\"><div class=\"desc\"><p>Преобразователь частоты VEDA VFD — ABA00012 — VF-51-P15K-0032-T4-E20-B-H. Универсальный, компактный преобразователь частоты с перегрузкой до 150 % серии VEDA VF-51 Micro Drive (Микро Драйв). Подходит для применения с насосами, вентиляторами, станками и конвейерами.</p>\n\n<p>Класс защиты корпуса IP20 (принудительное возд. охлаждение). Для интеграции в сетевую инфраструктуру оснащен встроенным интерфейсом RS-485. В комплектацию входит несъемная цифровая панель оператора с потенциометром и встроенный тормозной прерыватель.</p>\n\n<p>Напряжение вход 3×380В, выход 3×380В. Перегрузочная способность для 3-фазного ПЧ: 150 % — 60 с, 180 % — 5 с, 200 % — 0,5 с.<br>Максимальная выходная мощность 15 кВт. Тепловые потери 450 Вт. Номинальный выходной ток 32А, ток перегрузки 48A.</p></div></div>",
+  "documents": [
+    {
+      "title": "Листовка VF-51.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/fdb2aba6-e24b-4aea-9f02-f17a2b74facc/%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20VF-51.pdf",
+      "group": "Брошюры и листовки expand_more",
+      "localPath": "assets/documents/9271584cdd55-Листовка VF-51.pdf",
+      "bytes": 955405,
+      "sha256": "7272e101f6c6ab724eb7c50d09b7a3c940f28be3ed46eff161746f833f536118",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Каталог VEDA VFD.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/d8835727-4cf3-410f-ab91-b28c4969f08a/%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3%20VEDA%20VFD.pdf",
+      "group": "Брошюры и листовки expand_more",
+      "localPath": "assets/documents/26037b65cb42-Каталог VEDA VFD.pdf",
+      "bytes": 10890035,
+      "sha256": "f0c6a1cb7b6f5137fd9eb31ec29ae54c53ea38e44edc40a7f8debb06879e76c0",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Руководство по эксплуатации VF-51.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/11abcfb6-da1b-4bdb-abab-133f2b0c9b9c/%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%20%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D0%B0%D1%86%D0%B8%D0%B8%20VF-51.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/8378edfcf440-Руководство по эксплуатации VF-51.pdf",
+      "bytes": 5700474,
+      "sha256": "4e8a448caab0a82dec049dfcfe8883e64aa861a51d20430c5dc6a1b280dd56f2",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:52:19.932Z"
+    },
+    {
+      "title": "Краткая инструкция VF-51.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/14bbcdec-b0d3-4dd2-871c-2187e3ed2ec0/%D0%9A%D1%80%D0%B0%D1%82%D0%BA%D0%B0%D1%8F%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F%20VF-51.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/21aa98066352-Краткая инструкция VF-51.pdf",
+      "bytes": 1696288,
+      "sha256": "c3707a20be86fd307464ad1b2e3c3ae6771630d4dc81ee0ae4ffc700811a1557",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Ввод в эксплуатацию VF-51.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/1801d1d9-9fee-4644-9b04-e3f0d7a8d32f/%D0%92%D0%B2%D0%BE%D0%B4%20%D0%B2%20%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D0%B0%D1%86%D0%B8%D1%8E%20VF-51.pdf",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/a1e55982f1d5-Ввод в эксплуатацию VF-51.pdf",
+      "bytes": 3107306,
+      "sha256": "bdc913d99944f7d900214386f951ff1ee83b19704e7410b04ecb39cea358a415",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:52:19.932Z"
+    },
+    {
+      "title": "Схема подключений VF-51.zip",
+      "sourceUrl": "https://drives.ru/dh-files/d57043c2-f76e-4fac-9c17-65ed94f2eefe/%D0%A1%D1%85%D0%B5%D0%BC%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B9%20VF-51.zip",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/d27876560470-Схема подключений VF-51.zip",
+      "bytes": 340217,
+      "sha256": "72ff048fd7efc10aae2e3f2290237a5a7d8d589f58aeb9bc33a9900ec7a3328c",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Клеммы управления VF-51.zip",
+      "sourceUrl": "https://drives.ru/dh-files/5369e1da-7f44-49df-bcee-36b9ae2d7d43/%D0%9A%D0%BB%D0%B5%D0%BC%D0%BC%D1%8B%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20VF-51.zip",
+      "group": "Инструкции expand_more",
+      "localPath": "assets/documents/417c3f7c9794-Клеммы управления VF-51.zip",
+      "bytes": 815899,
+      "sha256": "03f50e87d64435a2159fac184932a6dd7f3303714fcbcd656645206fa68dc04c",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Чертежи VF-51.rar",
+      "sourceUrl": "https://drives.ru/dh-files/918fb469-cd30-4117-b405-b09a18a4bb29/%D0%A7%D0%B5%D1%80%D1%82%D0%B5%D0%B6%D0%B8%20%20VF-51.rar",
+      "group": "Чертежи expand_more",
+      "localPath": "assets/documents/6dbcd65b876a-Чертежи  VF-51.rar",
+      "bytes": 585435,
+      "sha256": "25f0aefac1fb72a44c65f11b1e271b935dc75f5eb6369b9b58518fde8f1cf249",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "3D модели VF-51.zip",
+      "sourceUrl": "https://drives.ru/dh-files/6c112451-f41e-4430-ba13-0407e21832ce/3D%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%20VF-51.zip",
+      "group": "3D Модели expand_more",
+      "localPath": "assets/documents/1cab7da4d6e3-3D модели VF-51.zip",
+      "bytes": 31124309,
+      "sha256": "eabed1dba86f65f47eff0f0b807fb14b852bea088003a6ef143521b9198f227f",
+      "contentType": "application/octet-stream",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Морской сертификат ПЧ РМРС.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/75f5ef1f-78ed-48ec-9fe2-4903867ed1af/%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9%20%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D0%9F%D0%A7%20%D0%A0%D0%9C%D0%A0%D0%A1.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/899d0bbd49e7-Морской сертификат ПЧ РМРС.pdf",
+      "bytes": 177771,
+      "sha256": "10b1bdf9fc9f89ef9ce022192ab7e7f27a988851a3445e9f8de323d7ae3ad554",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Декларация о соответствии ТР ТС 020_2011.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/f5dae083-dc84-4148-899f-e4a8a8b21530/%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BE%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B8%20%D0%A2%D0%A0%20%D0%A2%D0%A1%20020_2011.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/195d4fe15eca-Декларация о соответствии ТР ТС 020_2011.pdf",
+      "bytes": 173719,
+      "sha256": "a834fb5db62aa1886ff3b74eb61a7cc1edc337282f707d6fa761f3ae87ec4c69",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "title": "Сертификат соответствия ТР ТС 004_2011.pdf",
+      "sourceUrl": "https://drives.ru/dh-files/b84cd99a-c690-4259-9daa-9d27de25a7a0/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D1%8F%20%D0%A2%D0%A0%20%D0%A2%D0%A1%20004_2011.pdf",
+      "group": "Сертификаты expand_more",
+      "localPath": "assets/documents/bb04e8ce2cff-Сертификат соответствия ТР ТС 004_2011.pdf",
+      "bytes": 171673,
+      "sha256": "6baf8f62dce84984642a7abc733c3a0aaf70aaef44505eb79329e144e43f8262",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    }
+  ],
+  "sku": "ABA00012",
+  "characteristics": [
+    {
+      "name": "Типовой код",
+      "value": "VF-51-P15K-0032-T4-E20-B-H"
+    },
+    {
+      "name": "Серия",
+      "value": "VF-51 Micro Drive (Микро Драйв)"
+    },
+    {
+      "name": "Краткое описание",
+      "value": "VEDA VFD VF-51 Micro Drive (Микро Драйв)"
+    },
+    {
+      "name": "Выходная мощность, кВт",
+      "value": "15"
+    },
+    {
+      "name": "Входное напряжение, В",
+      "value": "3х400"
+    },
+    {
+      "name": "Выходное напряжение, В",
+      "value": "Трехфазное, 0-100 % входного напряжения, погрешность±2,5%"
+    },
+    {
+      "name": "Номинальный выходной ток, А",
+      "value": "32"
+    },
+    {
+      "name": "Перегрузочная способность, %",
+      "value": "150"
+    },
+    {
+      "name": "Торм.ключ",
+      "value": "Да"
+    },
+    {
+      "name": "Дроссель шины постоянного тока",
+      "value": "Нет"
+    },
+    {
+      "name": "Количество и тип входов",
+      "value": "4 цифровых входа; 1 аналоговый вход (0-10 В или 0-20 мА)"
+    },
+    {
+      "name": "Количество и тип выходов",
+      "value": "1 цифровой выход; 1 аналоговый выход (0-10 В или 0/4-20 мА); 1 релейный выход"
+    },
+    {
+      "name": "Канал связи",
+      "value": "Modbus RTU"
+    },
+    {
+      "name": "Панель оператора",
+      "value": "Встроенная цифровая"
+    },
+    {
+      "name": "Фильтр ЭМС",
+      "value": "Базовый"
+    },
+    {
+      "name": "Тепловые потери, Вт",
+      "value": "450"
+    },
+    {
+      "name": "Панель оператора",
+      "value": "Встроенная цифровая"
+    },
+    {
+      "name": "Степень защиты",
+      "value": "IP20"
+    },
+    {
+      "name": "ВхШхГ, мм",
+      "value": "342,5х170х183"
+    },
+    {
+      "name": "Масса, кг",
+      "value": "6,3"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/58/09/958/images/3707/3707.970.png",
+      "alt": "Преобразователь частоты VEDA VFD — ABA00012 — VF-51-P15K-0032-T4-E20-B-H",
+      "localPath": "assets/images/1673bc572612-3707.970.png",
+      "bytes": 176165,
+      "sha256": "53b430711499112e734d1774f25d9cd5acc67ba2290581b9d5196bbec04edcd1",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/58/09/958/images/3702/3702.970.png",
+      "alt": "Преобразователь частоты VEDA VFD — ABA00012 — VF-51-P15K-0032-T4-E20-B-H",
+      "localPath": "assets/images/90dd3203a0f5-3702.970.png",
+      "bytes": 199512,
+      "sha256": "31f8fa71aac0c2bb5c1226f440c692b61a0dc3c3cbc344d8a7597750e87a8b73",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/58/09/958/images/3718/3718.970.JPG",
+      "alt": "Преобразователь частоты VEDA VFD — ABA00012 — VF-51-P15K-0032-T4-E20-B-H",
+      "localPath": "assets/images/ed6ada14b595-3718.970.JPG",
+      "bytes": 170346,
+      "sha256": "656f4df4e2f5fc0de240c7eeaa1c5382c10d4135475ceda804f508d347d5c443",
+      "contentType": "image/jpeg",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/58/09/958/images/3728/3728.970.png",
+      "alt": "Преобразователь частоты VEDA VFD — ABA00012 — VF-51-P15K-0032-T4-E20-B-H",
+      "localPath": "assets/images/bcd067ffa835-3728.970.png",
+      "bytes": 245154,
+      "sha256": "491c3164bed4a97097971ddcf93a90a83a969046b244a88eac5439e2435aa5ff",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/58/09/958/images/3737/3737.970.png",
+      "alt": "Преобразователь частоты VEDA VFD — ABA00012 — VF-51-P15K-0032-T4-E20-B-H",
+      "localPath": "assets/images/6d8febd42f77-3737.970.png",
+      "bytes": 265114,
+      "sha256": "1fc5c48b418c090d58563cc53705eb6a963c697e79842578544ac74d6f731408",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/58/09/958/images/3743/3743.970.png",
+      "alt": "Преобразователь частоты VEDA VFD — ABA00012 — VF-51-P15K-0032-T4-E20-B-H",
+      "localPath": "assets/images/499f115a205d-3743.970.png",
+      "bytes": 153672,
+      "sha256": "0fed52856ad422539e268240092fc0d0dffe35a6e8e4e6b43b2cb8b08effd506",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/58/09/958/images/3748/3748.970.png",
+      "alt": "Преобразователь частоты VEDA VFD — ABA00012 — VF-51-P15K-0032-T4-E20-B-H",
+      "localPath": "assets/images/a01b4b966ce1-3748.970.png",
+      "bytes": 550005,
+      "sha256": "58cadeabf50348b370116bd14f2966ab8bf178d02e666e4cd78a18d98a9e0247",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    },
+    {
+      "sourceUrl": "https://drives.ru/wa-data/public/shop/products/58/09/958/images/3753/3753.970.png",
+      "alt": "Преобразователь частоты VEDA VFD — ABA00012 — VF-51-P15K-0032-T4-E20-B-H",
+      "localPath": "assets/images/4c377381949f-3753.970.png",
+      "bytes": 393343,
+      "sha256": "10025c43e35374e12eb661b41557ce9cb86b88a85f5f4ecc6818eb5f94668f4b",
+      "contentType": "image/png",
+      "downloadedAt": "2026-10-16T09:50:15.377Z"
+    }
+  ],
+  "price": {
+    "raw": "102 242 ₽",
+    "currency": "RUB",
+    "tax": "без НДС"
+  },
+  "availability": "Артикул: ABA00012На складе в Москве",
+  "source": {
+    "url": "https://drives.ru/preobrazovatel-chastoty-veda-vf-51-micro-drive-aba00012/",
+    "rawHtml": "raw/pages/e79d06c2ec78be4fa4fb.html",
+    "sha256": "5115dc0626f977e553710e2308bd5c9ceb19b79b2240dcdb254bb329bd7a1b53",
+    "collectedAt": "2026-10-16T10:21:39.137Z"
+  },
+  "seriesId": "VF-51",
+  "categoryPath": [
+    "Низковольтные ПЧ и УПП",
+    "Преобразователи частоты VEDA VFD",
+    "Компактный преобразователь частоты серии VF-51 Micro Drive (Микро Драйв)"
+  ],
+  "model": "VF-51-P15K-0032-T4-E20-B-H",
+  "schemaVersion": 1,
+  "warnings": [
+    {
+      "type": "duplicate-characteristic",
+      "name": "Панель оператора",
+      "values": [
+        "Встроенная цифровая",
+        "Встроенная цифровая"
+      ]
+    }
+  ]
+}

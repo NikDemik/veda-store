@@ -22,8 +22,8 @@
         "prisma:studio": "prisma studio",
         "prisma:seed": "node prisma/seed.mjs",
         "prisma:seed-hfp56": "node prisma/seed-hfp56-catalog.mjs",
-        "prisma:import-anneng": "node prisma/import-anneng-xlsx.mjs",
-        "test:anneng-import": "node prisma/verify-anneng-import.mjs",
+        "prisma:import-veda": "node prisma/import-veda-content.mjs",
+        "test:veda-import": "node prisma/verify-veda-import.mjs",
         "test:catalog-import": "node prisma/verify-catalog-import.mjs",
         "test:catalog-import-api": "node prisma/verify-catalog-import-api.mjs",
         "auth:secret": "npx auth secret"

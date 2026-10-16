@@ -2,7 +2,6 @@
 
 import contactData from '@/data/contactData';
 import Link from 'next/link';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Mail, Phone, Clock, MoveUp } from 'lucide-react';
 import { Button } from '../ui/button';
@@ -48,24 +47,7 @@ export default function Footer() {
                     <div className="flex w-full justify-between">
                         {/* LOGO*/}
                         <Link href="/">
-                            <Image
-                                src={'/logo/logo-anneng-black.svg'}
-                                width={230}
-                                height={50}
-                                quality={100}
-                                alt="Логотип"
-                                loading="eager"
-                                className="dark:hidden"
-                            />
-                            <Image
-                                src={'/logo/logo-anneng-white.png'}
-                                width={230}
-                                height={50}
-                                quality={100}
-                                alt="Логотип"
-                                loading="eager"
-                                className="hidden dark:block"
-                            />
+                            <span className="text-2xl font-semibold">VEDA VFD</span>
                         </Link>
                     </div>
                     <Separator />

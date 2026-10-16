@@ -221,7 +221,7 @@ export function BrandsTab({ brands }: BrandsTabProps) {
                             <input
                                 className={inputClassName}
                                 name="name"
-                                placeholder="Anneng"
+                                placeholder="Название бренда"
                                 defaultValue={editingBrand?.name ?? ''}
                                 required
                             />
@@ -230,7 +230,7 @@ export function BrandsTab({ brands }: BrandsTabProps) {
                             <input
                                 className={inputClassName}
                                 name="slug"
-                                placeholder="anneng"
+                                placeholder="brand-slug"
                                 defaultValue={editingBrand?.slug ?? ''}
                                 required
                             />

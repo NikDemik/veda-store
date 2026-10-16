@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic';
 
 export const metadata = createPageMetadata(
     'Личный кабинет',
-    'Личный кабинет Anneng: заказы, данные организации и настройки аккаунта.',
+    'Личный кабинет VEDA VFD: заказы, данные организации и настройки аккаунта.',
 );
 
 export default function Account() {
